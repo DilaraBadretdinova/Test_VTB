@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="76" column="13" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="83" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -58,11 +58,9 @@
       <file leaf-file-name="ChromeSettings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ChromeSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +80,8 @@
       <file leaf-file-name="CreateNewPP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="194">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestVTB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestVTB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/TestVTB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,12 +124,12 @@
         <option value="$PROJECT_DIR$/src/test/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ResultPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ChromeSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewPP.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/TestVTB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ChromeSettings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/MainPage.java" />
       </list>
     </option>
   </component>
@@ -183,22 +181,14 @@
               <item name="Test_VTB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test_VTB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test_VTB" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test_VTB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test_VTB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test_VTB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="badretdinova" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,27 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Test_VTB (1)">
-    <configuration name="All in Test_VTB (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Test_VTB" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Test_VTB">
     <configuration name="All in Test_VTB (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Test_VTB" />
@@ -292,6 +262,26 @@
       <patterns />
     </configuration>
     <configuration name="All in Test_VTB (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Test_VTB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="All in Test_VTB (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Test_VTB" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -413,19 +403,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (5)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -443,34 +433,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Test_VTB - 2018.01.24 at 18h 30m 37s.xml">
+    <history-entry file="All_in_Test_VTB - 2018.01.24 at 19h 47m 32s.xml">
       <configuration name="All in Test_VTB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB - 2018.01.24 at 18h 55m 32s.xml">
+    <history-entry file="All_in_Test_VTB - 2018.01.24 at 20h 05m 32s.xml">
       <configuration name="All in Test_VTB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(1) - 2018.01.24 at 18h 32m 16s.xml">
+    <history-entry file="All_in_Test_VTB_(1) - 2018.01.24 at 19h 49m 48s.xml">
       <configuration name="All in Test_VTB (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(1) - 2018.01.24 at 19h 00m 51s.xml">
-      <configuration name="All in Test_VTB (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Test_VTB_(2) - 2018.01.24 at 18h 50m 21s.xml">
+    <history-entry file="All_in_Test_VTB_(2) - 2018.01.24 at 19h 40m 19s.xml">
       <configuration name="All in Test_VTB (2)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(3) - 2018.01.24 at 18h 21m 23s.xml">
+    <history-entry file="All_in_Test_VTB_(2) - 2018.01.24 at 19h 53m 03s.xml">
+      <configuration name="All in Test_VTB (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Test_VTB_(3) - 2018.01.24 at 19h 42m 30s.xml">
       <configuration name="All in Test_VTB (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(3) - 2018.01.24 at 18h 52m 11s.xml">
+    <history-entry file="All_in_Test_VTB_(3) - 2018.01.24 at 19h 56m 12s.xml">
       <configuration name="All in Test_VTB (3)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(4) - 2018.01.24 at 18h 25m 37s.xml">
+    <history-entry file="All_in_Test_VTB_(4) - 2018.01.24 at 19h 44m 41s.xml">
       <configuration name="All in Test_VTB (4)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(4) - 2018.01.24 at 18h 54m 10s.xml">
+    <history-entry file="All_in_Test_VTB_(4) - 2018.01.24 at 20h 04m 51s.xml">
       <configuration name="All in Test_VTB (4)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Test_VTB_(5) - 2018.01.24 at 18h 43m 34s.xml">
+    <history-entry file="All_in_Test_VTB_(5) - 2018.01.24 at 19h 50m 30s.xml">
       <configuration name="All in Test_VTB (5)" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -616,10 +606,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ChromeSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/TestVTB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,41 +636,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ChromeSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="76" column="13" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="83" selection-end-column="32" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewPP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="194">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/TestVTB.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

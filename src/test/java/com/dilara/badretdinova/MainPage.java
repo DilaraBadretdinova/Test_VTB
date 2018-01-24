@@ -19,9 +19,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 class MainPage {
-    @FindBy(css = "input.field__input.field__input_clearable")
+    @FindBy(xpath = "//input[@type='text']")
    public WebElement Login; //поле логин
-    @FindBy(css = "div.field.field_input.LoginView__inputPassword--2rpwD > div.field__control > input.field__input.field__input_clearable")
+    @FindBy(xpath = "//input[@type='password']")
     public WebElement Password; //поле пароль
     @FindBy(xpath = "//*[@class='Button__base--3ZP3W Button__baseMinWidth--3NuBa Button__baseMaxWidth--3R5RD LoginView__btnPrimary--3LQGe']")
     public WebElement loginButton; //кнопка Войти
@@ -29,9 +29,9 @@ class MainPage {
     public WebElement Name; //Лейбл user
     @FindBy(xpath = "//div[text()='Создать ПП']")
     public WebElement NewPPButton; //кнопка Создать ПП
-    @FindBy(css = "input.field__input.field__input_clearable")
+    @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
     public WebElement Number; //Поле Номер документа
-    @FindBy(css = "input.field__input.field__input_clearable")
+    @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
     public WebElement NumberDog;
     @FindBy(css = "div.field__clean")
     public WebElement NumberClear; //Иконка очистить
@@ -54,54 +54,4 @@ class MainPage {
     @FindBy(css = "//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div[2]/div")
     public WebElement  PaymentListSelect; //Элементы списка Вид платежа
 
-
-
-/*
-
-    //новый ПП и номер документа
-    public void newPP() {
-        NewPPButton.click();
-        Number.click();
-        String NumberDog_Str = NumberDog.getAttribute("value");
-        if (NumberDog_Str != " ") log.fine("Passed");
-        NumberClear.click();
-        Number.click();
-        Number.clear();
-        Number.sendKeys("197");
-
-    }
-//проверка даты
-    public void dateDoc() {
-        Date date = new Date();
-        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
-        Calendar calendar = new GregorianCalendar();
-        String DDate =  DocDate.getAttribute("value");
-        String Date_Current = format.format(date.getTime());
-        Assert.assertEquals(DDate, Date_Current);
-        DocDate.click();
-        calendar.add(Calendar.DAY_OF_YEAR, 1);
-        DDate = format.format(calendar.getTime());
-        DocDate.sendKeys(DDate);
-
-    }
-    //шаблон
-    public void template(){
-        Template.click();
-        List.click();
-        List_two.click();
-        Template_List.click();
-        Template_Chekbox.click();
-        Template_button.click();
-    }
-    //вид платежа
-    public void payment() {
-        PaymentList.click();
-        webDriver.findElement(By.cssSelector("div.PayDocRu__paymentUrgent--HYBr1 > div.field.field_select > div.field__label > button.field__labelBtn")).click();
-        webDriver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
-        webDriver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
-        //        PaymentListSelect.click();
-        String PaymentList_Str = PaymentList.getAttribute("value");
-
-
-    }*/
 }

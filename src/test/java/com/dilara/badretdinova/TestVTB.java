@@ -19,25 +19,12 @@ public class TestVTB extends ChromeSettings {
   // public void homePage() throws InterruptedException {
     HomePage homePage = new HomePage(driver);
     CreateNewPP createNewPP = homePage.createNewPPButton();
-    createNewPP.docNumber();
-    createNewPP.docDate();
+    createNewPP.docNumber(); //номер документа
+    createNewPP.docDate(); // дата документа
+     createNewPP.template(); //шаблон
+    createNewPP.payment(); //вид платежа
 
     }
-      // webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-       //String User = mainPage.Name.getText();
 
-      // Assert.assertEquals("BilalovaLR", User);
-       // mainPage.open();
-        //mainPage.newPP();
-       // mainPage.dateDoc();
-       // mainPage.template();
-       // mainPage.payment();
-
-
-
-/*@After
-    public void tearDown(){
-            //if (webDriver != null) webDriver.quit();
-}*/
 }
 

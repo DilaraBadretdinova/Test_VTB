@@ -1,6 +1,7 @@
 package com.dilara.badretdinova;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -40,6 +41,28 @@ public class CreateNewPP {
         calendar.add(Calendar.DAY_OF_YEAR, 1);
         DDate = format.format(calendar.getTime());
         mainPage.DocDate.sendKeys(DDate);
-
     }
+    //шаблон
+    public void template(){
+        MainPage mainPage= new MainPage();
+        PageFactory.initElements(driver, mainPage);
+
+        mainPage.Template.click();
+        mainPage.List.click();
+        mainPage.List_two.click();
+        mainPage.Template_List.click();
+        mainPage.Template_Chekbox.click();
+        mainPage.Template_button.click();
+    }
+    //вид платежа
+    public void payment() {
+        MainPage mainPage= new MainPage();
+        PageFactory.initElements(driver, mainPage);
+        mainPage.PaymentList.click();
+        driver.findElement(By.cssSelector("div.PayDocRu__paymentUrgent--HYBr1 > div.field.field_select > div.field__label > button.field__labelBtn")).click();
+        driver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
+        driver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
+        //        PaymentListSelect.click();
+        //String PaymentList_Str = PaymentList.getAttribute("value");
+        }
 }
