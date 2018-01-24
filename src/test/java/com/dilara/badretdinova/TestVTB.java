@@ -1,39 +1,43 @@
 package com.dilara.badretdinova;
 import org.junit.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
+public class TestVTB extends ChromeSettings {
+    @Test
+   public  void authorization() throws InterruptedException {
+       MainPage mainPage= new MainPage();
+       PageFactory.initElements(driver, mainPage);
+      LoginPage loginPage= new LoginPage(driver);
+      loginPage.assertLogin();
+      loginPage.assertPassword();
+      HomePage resultpage = loginPage.clickLoginButton();
+     String User = mainPage.Name.getText();
+     Assert.assertEquals("BilalovaLR", User);
+   //}
 
-//import static jdk.jfr.internal.SecuritySupport.getResourceAsStream;
+//@Test
+  // public void homePage() throws InterruptedException {
+    HomePage homePage = new HomePage(driver);
+    CreateNewPP createNewPP = homePage.createNewPPButton();
+    createNewPP.docNumber();
+    createNewPP.docDate();
 
-public class TestVTB {
-    private static ChromeDriver webDriver;
-    MainPage mainPage;
-
-
-    @Before
-        public  void setUp() {
-       System.setProperty("webdriver.chrome.driver", "C://Program Files//chromedriver.exe");
-        webDriver = new ChromeDriver();
-        mainPage = new MainPage(webDriver);
     }
+      // webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+       //String User = mainPage.Name.getText();
 
-   @Test
-   public  void Payment() {
-        mainPage.open();
-        mainPage.newPP();
-        mainPage.dateDoc();
-        mainPage.template();
-        mainPage.payment();
-    }
+      // Assert.assertEquals("BilalovaLR", User);
+       // mainPage.open();
+        //mainPage.newPP();
+       // mainPage.dateDoc();
+       // mainPage.template();
+       // mainPage.payment();
 
 
-@After
+
+/*@After
     public void tearDown(){
-            if (webDriver != null) webDriver.quit();
-}
+            //if (webDriver != null) webDriver.quit();
+}*/
 }
 

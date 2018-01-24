@@ -18,79 +18,45 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-public class MainPage {
-    private WebDriver webDriver;
-    private WebDriverWait wait;
-    private static Logger log = Logger.getLogger(TestVTB.class.getName());
-
+class MainPage {
     @FindBy(css = "input.field__input.field__input_clearable")
-    WebElement Login;
+   public WebElement Login; //поле логин
     @FindBy(css = "div.field.field_input.LoginView__inputPassword--2rpwD > div.field__control > input.field__input.field__input_clearable")
-    WebElement Password;
+    public WebElement Password; //поле пароль
     @FindBy(xpath = "//*[@class='Button__base--3ZP3W Button__baseMinWidth--3NuBa Button__baseMaxWidth--3R5RD LoginView__btnPrimary--3LQGe']")
-    WebElement loginButton;
+    public WebElement loginButton; //кнопка Войти
     @FindBy(xpath = "//div[text()='BilalovaLR']")
-    WebElement Name;
+    public WebElement Name; //Лейбл user
     @FindBy(xpath = "//div[text()='Создать ПП']")
-    WebElement NewPPButton;
+    public WebElement NewPPButton; //кнопка Создать ПП
     @FindBy(css = "input.field__input.field__input_clearable")
-    WebElement Number;
+    public WebElement Number; //Поле Номер документа
     @FindBy(css = "input.field__input.field__input_clearable")
-    WebElement NumberDog;
+    public WebElement NumberDog;
     @FindBy(css = "div.field__clean")
-    WebElement NumberClear;
+    public WebElement NumberClear; //Иконка очистить
     @FindBy(css = "input.field__input.undefined ")
-    WebElement DocDate;
+    public WebElement DocDate; // Поле Дата
     @FindBy(css = "i.Icon__icon--66GYG.Icon__arrowDropDown--26iSm")
-    WebElement Template;
+    public WebElement Template; //Поле шаблон
     @FindBy(css = "div.field__optionVal1")
-    WebElement List;
+    public WebElement List; //Выпадающий список шаблонов
     @FindBy(css = "div.field__inputWrap > input.field__input")
-    WebElement List_two;
+    public WebElement List_two; //Элементы выпадающего списка
     @FindBy(css = "button.field__labelBtn")
-    WebElement Template_List;
+    public WebElement Template_List; // Ссылка Шаблоны
     @FindBy(css = "div.table__cell.table__cell_checkbox > label.field.field_checkbox > div.field__control > div.field__fakeCheckbox")
-    WebElement Template_Chekbox;
+    public WebElement Template_Chekbox; //чекбоксы в списке шаблонов
     @FindBy(css = "div.OverlapButtonPanel__base--17BGu > button.Button__base--3ZP3W.Button__basePrimary--3ryz2")
-    WebElement  Template_button;
+    public WebElement  Template_button; //кнопка выбора шаблонов
     @FindBy(css = "div.GridSpan__gridSpan--1jA-G > div.field.field_select > div.field__control > div.field__inputWrap > div.field__icon.field__icon_selectClosed > i.Icon__icon--66GYG.Icon__arrowDropDown--26iSm")
-    WebElement  PaymentList;
+    public WebElement  PaymentList; //Поле Вид платежа
     @FindBy(css = "//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div[2]/div")
-    WebElement  PaymentListSelect;
+    public WebElement  PaymentListSelect; //Элементы списка Вид платежа
 
 
-    public MainPage(WebDriver driver) {
-        webDriver = driver;
-        PageFactory.initElements(webDriver, this);
-        webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        FileInputStream fis;
-        Properties prop = new Properties();
-        try {
-            fis = new FileInputStream("src/test/java/com/dilara/badretdinova/config.properties");
-            prop.load(fis);
-             }
-        catch (IOException ex) {
-            ex.printStackTrace();
-        }
-        webDriver.get(prop.getProperty("host"));
-        Login.click();
-        Login.clear();
-        Login.sendKeys(prop.getProperty("login"));
-        Password.click();
-        Password.clear();
-        Password.sendKeys(prop.getProperty("password"));
-    }
 
-
-    public void open() {
-        webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Login.click();
-        loginButton.click();
-        String User = Name.getText();
-        Assert.assertEquals("BilalovaLR", User);
-
-    }
+/*
 
     //новый ПП и номер документа
     public void newPP() {
@@ -137,5 +103,5 @@ public class MainPage {
         String PaymentList_Str = PaymentList.getAttribute("value");
 
 
-    }
+    }*/
 }
