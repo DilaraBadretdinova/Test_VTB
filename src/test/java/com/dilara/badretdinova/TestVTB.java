@@ -2,6 +2,8 @@ package com.dilara.badretdinova;
 import org.junit.*;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestVTB extends ChromeSettings {
     @Test
    public  void authorization() throws InterruptedException {
@@ -22,7 +24,10 @@ public class TestVTB extends ChromeSettings {
     createNewPP.docNumber(); //номер документа
     createNewPP.docDate(); // дата документа
      createNewPP.template(); //шаблон
-    createNewPP.payment(); //вид платежа
+    createNewPP.typePayment(); //вид платежа
+     createNewPP.priorityOfPayment(); //очередность платежа
+      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        createNewPP.codeEnter();//код
 
     }
 

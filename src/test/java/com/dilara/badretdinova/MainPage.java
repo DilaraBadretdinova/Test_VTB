@@ -35,23 +35,32 @@ class MainPage {
     public WebElement NumberDog;
     @FindBy(css = "div.field__clean")
     public WebElement NumberClear; //Иконка очистить
-    @FindBy(css = "input.field__input.undefined ")
+    @FindBy(xpath = "//input[@type='text' and @class='field__input undefined ']")
     public WebElement DocDate; // Поле Дата
-    @FindBy(css = "i.Icon__icon--66GYG.Icon__arrowDropDown--26iSm")
+    @FindBy(xpath = "//div[@title='Шаблон']//input")
     public WebElement Template; //Поле шаблон
-    @FindBy(css = "div.field__optionVal1")
+    @FindBy(xpath = "//div[@tabindex][3]")
     public WebElement List; //Выпадающий список шаблонов
-    @FindBy(css = "div.field__inputWrap > input.field__input")
-    public WebElement List_two; //Элементы выпадающего списка
-    @FindBy(css = "button.field__labelBtn")
+    //@FindBy(css = "div.field__inputWrap > input.field__input")
+   // public WebElement List_two; //Элементы выпадающего списка
+    @FindBy(xpath = "//button[text()='Шаблон']")
     public WebElement Template_List; // Ссылка Шаблоны
-    @FindBy(css = "div.table__cell.table__cell_checkbox > label.field.field_checkbox > div.field__control > div.field__fakeCheckbox")
+    @FindBy(xpath = "//div[2]/div/label/div")
     public WebElement Template_Chekbox; //чекбоксы в списке шаблонов
-    @FindBy(css = "div.OverlapButtonPanel__base--17BGu > button.Button__base--3ZP3W.Button__basePrimary--3ryz2")
+    @FindBy(xpath = "//button[@class='Button__base--3ZP3W Button__basePrimary--3ryz2']/div")
     public WebElement  Template_button; //кнопка выбора шаблонов
-    @FindBy(css = "div.GridSpan__gridSpan--1jA-G > div.field.field_select > div.field__control > div.field__inputWrap > div.field__icon.field__icon_selectClosed > i.Icon__icon--66GYG.Icon__arrowDropDown--26iSm")
+    @FindBy(xpath = "//input[@value='Не указан']")
     public WebElement  PaymentList; //Поле Вид платежа
-    @FindBy(css = "//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div/div/div/div/div/div[2]/div/div[2]/div[2]/div")
+    @FindBy(xpath = "//div[@class='field__optionVal1' and text()='Срочно']")
     public WebElement  PaymentListSelect; //Элементы списка Вид платежа
-
+    @FindBy(xpath = "//input[@value='5']")
+    public WebElement  PriorityOfPayment; //Поле очередность платежа
+    @FindBy(xpath = "//button[@class='field__labelBtn' and @type='button' and text()='Очередность платежа']")
+    public WebElement  LinkPriorityOfPayment; //Ссылка очередность платежа
+    @FindBy(xpath = "//div[@tabindex][2]/div[2]/div")
+    public WebElement  ListPriorityOfPayment; //список очередностей
+    @FindBy(xpath = "//div[@class='Button__labelClass--_0Dmv' and text()='Применить']")
+    public WebElement  ButtonPriorityOfPayment; //кнопка выбора очередности
+    @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable' and @value and @placeholder='УИН/УИП' and @maxlength='25']")
+    public WebElement CodeUIP; //поле код
 }

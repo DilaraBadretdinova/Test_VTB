@@ -3,12 +3,17 @@ package com.dilara.badretdinova;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.concurrent.TimeUnit;
 
 import static com.sun.activation.registries.LogSupport.log;
 
@@ -16,6 +21,7 @@ public class CreateNewPP {
     private WebDriver driver;
     public CreateNewPP(WebDriver driver){this.driver = driver; }
 
+    //номер документа
     public void docNumber(){
         MainPage mainPage= new MainPage();
         PageFactory.initElements(driver, mainPage);
@@ -27,7 +33,7 @@ public class CreateNewPP {
         mainPage.Number.clear();
         mainPage.Number.sendKeys("197");
     }
-
+//дата документа
     public void docDate(){
         MainPage mainPage= new MainPage();
         PageFactory.initElements(driver, mainPage);
@@ -49,20 +55,36 @@ public class CreateNewPP {
 
         mainPage.Template.click();
         mainPage.List.click();
-        mainPage.List_two.click();
         mainPage.Template_List.click();
         mainPage.Template_Chekbox.click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         mainPage.Template_button.click();
     }
     //вид платежа
-    public void payment() {
-        MainPage mainPage= new MainPage();
+    public void typePayment() {
+        MainPage mainPage = new MainPage();
         PageFactory.initElements(driver, mainPage);
         mainPage.PaymentList.click();
-        driver.findElement(By.cssSelector("div.PayDocRu__paymentUrgent--HYBr1 > div.field.field_select > div.field__label > button.field__labelBtn")).click();
-        driver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
-        driver.findElement(By.xpath("//div[@id='appframe']/form/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div")).click();
-        //        PaymentListSelect.click();
-        //String PaymentList_Str = PaymentList.getAttribute("value");
-        }
+        mainPage.PaymentListSelect.click();
+
+    }
+    public void priorityOfPayment(){
+        MainPage mainPage = new MainPage();
+        PageFactory.initElements(driver, mainPage);
+        mainPage.PriorityOfPayment.click();
+        mainPage.LinkPriorityOfPayment.click();
+        mainPage.ListPriorityOfPayment.click();
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")));
+        mainPage.ButtonPriorityOfPayment.click();
+                                }
+
+    public void codeEnter(){
+        MainPage mainPage = new MainPage();
+        PageFactory.initElements(driver, mainPage);
+        mainPage.CodeUIP.click();
+        mainPage.CodeUIP.clear();
+        mainPage.CodeUIP.sendKeys("39210202010061000160");
+
+    }
 }
