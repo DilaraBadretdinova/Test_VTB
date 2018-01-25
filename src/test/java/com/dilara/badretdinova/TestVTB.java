@@ -21,12 +21,18 @@ public class TestVTB extends ChromeSettings {
   // public void homePage() throws InterruptedException {
     HomePage homePage = new HomePage(driver);
     CreateNewPP createNewPP = homePage.createNewPPButton();
-    createNewPP.docNumber(); //номер документа
+    createNewPP.docNumber(); //номер документ
+        //@Test
     createNewPP.docDate(); // дата документа
+        //@Test
      createNewPP.template(); //шаблон
+        //@Test
     createNewPP.typePayment(); //вид платежа
+        //@Test
      createNewPP.priorityOfPayment(); //очередность платежа
-      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //@Test
+
         createNewPP.codeEnter();//код
 
     }

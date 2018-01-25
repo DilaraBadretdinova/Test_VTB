@@ -41,8 +41,6 @@ class MainPage {
     public WebElement Template; //Поле шаблон
     @FindBy(xpath = "//div[@tabindex][3]")
     public WebElement List; //Выпадающий список шаблонов
-    //@FindBy(css = "div.field__inputWrap > input.field__input")
-   // public WebElement List_two; //Элементы выпадающего списка
     @FindBy(xpath = "//button[text()='Шаблон']")
     public WebElement Template_List; // Ссылка Шаблоны
     @FindBy(xpath = "//div[2]/div/label/div")

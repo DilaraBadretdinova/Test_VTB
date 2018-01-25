@@ -77,6 +77,7 @@ public class CreateNewPP {
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")));
         mainPage.ButtonPriorityOfPayment.click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                                 }
 
     public void codeEnter(){
