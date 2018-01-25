@@ -1,36 +1,20 @@
-package com.dilara.badretdinova;
+package Pages;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Logger;
 
-class MainPage {
-    @FindBy(xpath = "//input[@type='text']")
-   public WebElement Login; //поле логин
-    @FindBy(xpath = "//input[@type='password']")
-    public WebElement Password; //поле пароль
-    @FindBy(xpath = "//*[@class='Button__base--3ZP3W Button__baseMinWidth--3NuBa Button__baseMaxWidth--3R5RD LoginView__btnPrimary--3LQGe']")
-    public WebElement loginButton; //кнопка Войти
-    @FindBy(xpath = "//div[text()='BilalovaLR']")
-    public WebElement Name; //Лейбл user
-    @FindBy(xpath = "//div[text()='Создать ПП']")
-    public WebElement NewPPButton; //кнопка Создать ПП
+public class CreateNewPP extends Page{
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
-    public WebElement Number; //Поле Номер документа
+   public WebElement Number; //Поле Номер документа
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
     public WebElement NumberDog;
     @FindBy(css = "div.field__clean")
@@ -61,4 +45,59 @@ class MainPage {
     public WebElement  ButtonPriorityOfPayment; //кнопка выбора очередности
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable' and @value and @placeholder='УИН/УИП' and @maxlength='25']")
     public WebElement CodeUIP; //поле код
+
+    //номер документа
+    public void checkDocNumber(){
+        NumberDog.click();
+        Number.click();
+        String NumberDog_Str = NumberDog.getAttribute("value");
+        NumberClear.click();
+        Number.click();
+        Number.clear();
+        Number.sendKeys("197");
+    }
+    //дата
+    public void checkDocDate(){
+        Date date = new Date();
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        Calendar calendar = new GregorianCalendar();
+        String DDate =  DocDate.getAttribute("value");
+        String Date_Current = format.format(date.getTime());
+      //  Assert.assertEquals(DDate, Date_Current);
+        DocDate.click();
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        DDate = format.format(calendar.getTime());
+        DocDate.sendKeys(DDate);
+    }
+    //шаблон
+    public void checkTemplate(){
+        Template.click();
+        List.click();
+        Template_List.click();
+        Template_Chekbox.click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Template_button.click();
+    }
+    //вид платежа
+    public void checkTypePayment() {
+        PaymentList.click();
+        PaymentListSelect.click();
+            }
+    //очередность платежа
+    public void checkPriorityOfPayment(){
+
+        PriorityOfPayment.click();
+        LinkPriorityOfPayment.click();
+        ListPriorityOfPayment.click();
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")));
+        ButtonPriorityOfPayment.click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    public void checkCodeEnter(){
+        CodeUIP.click();
+        CodeUIP.clear();
+        CodeUIP.sendKeys("39210202010061000160");
+    }
 }

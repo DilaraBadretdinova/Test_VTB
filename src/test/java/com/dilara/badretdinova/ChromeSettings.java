@@ -17,8 +17,6 @@ public class ChromeSettings {
     public void setUp(){
       System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
       driver = new ChromeDriver();
-      MainPage mainPage= new MainPage();
-      PageFactory.initElements(driver, mainPage);
       FileInputStream fis;
       Properties prop = new Properties();
       try {
