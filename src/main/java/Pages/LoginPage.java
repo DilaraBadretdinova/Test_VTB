@@ -15,7 +15,7 @@ public class LoginPage extends Page {
         @FindBy(xpath = "//button[text()='Войти']")
         private WebElement LoginButton; //кнопка Войти
        @FindBy(xpath = "//div[text()='BilalovaLR']")
-       public WebElement UserName2; //кнопка Войти
+       public WebElement UserName; //кнопка Войти
 
         public MainPage clickLoginButton(UserInfo user) {
 

@@ -10,22 +10,24 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class CreateButtonPP extends MainPage {
+public class ButtonCreateNewPP extends MainPage {
     @Before
-            public void setUp(){
-    getDriver().get(ConfigProperties.getTestProperty("host"));
-        UserInfo user = new UserInfo("1111111111", "1111111111");
+    public void setUp() {
+        getDriver().get(ConfigProperties.getTestProperty("host"));
+        UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
 
     }
+
     @Test
     public void clickButtonCreateNewPP() {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-         new MainPage() .clickCreateNewPP();
+        new MainPage().clickCreateNewPP();
     }
+
     @After
-    public void closePage(){
+    public void closePage() {
         driver.quit();
-        driver=null;
+        driver = null;
     }
 }

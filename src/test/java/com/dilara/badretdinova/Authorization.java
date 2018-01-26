@@ -22,10 +22,10 @@ public class Authorization extends LoginPage {
 
     @Test
     public void authorization() {
-        UserInfo user = new UserInfo("1111111111", "1111111111");
+        UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertEquals("BilalovaLR", UserName2.getText());
+        Assert.assertEquals("BilalovaLR", UserName.getText());
     }
 
     @After

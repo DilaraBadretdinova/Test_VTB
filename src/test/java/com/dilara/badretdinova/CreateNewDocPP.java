@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class CreateNew extends CreateNewPP {
+public class CreateNewDocPP extends Pages.CreateNewPP {
     @Before
     public void setUp() {
         getDriver().get(ConfigProperties.getTestProperty("host"));
@@ -23,32 +23,32 @@ public class CreateNew extends CreateNewPP {
 
     @Test
     public void verificationDocNumber() {
-        new CreateNewPP().checkDocNumber();
+        new Pages.CreateNewPP().checkDocNumber();
     }
 
     @Test
     public void verificationDocDate() {
-        new CreateNewPP().checkDocDate();
+        new Pages.CreateNewPP().checkDocDate();
     }
 
     @Test
     public void verificationTemplate() {
-        new CreateNewPP().checkTemplate();
+        new Pages.CreateNewPP().checkTemplate();
     }
 
     @Test
     public void verificationTypePayment() {
-        new CreateNewPP().checkTypePayment();
+        new Pages.CreateNewPP().checkTypePayment();
     }
 
     @Test
     public void verificationPriorityTypeOfPayment() {
-        new CreateNewPP().checkPriorityOfPayment();
+        new Pages.CreateNewPP().checkPriorityOfPayment();
     }
 
     @Test
     public void verificationCodeEnter() {
-        new CreateNewPP().checkCodeEnter();
+        new Pages.CreateNewPP().checkCodeEnter();
     }
 //@After
 //public void closePage(){
