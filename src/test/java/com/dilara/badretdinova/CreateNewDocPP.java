@@ -11,6 +11,8 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
+//TODO Что за класс? Внутри у тебя тесты, классы тестов не экстендят страницы
+
 public class CreateNewDocPP extends Pages.CreateNewPP {
     @Before
     public void setUp() {

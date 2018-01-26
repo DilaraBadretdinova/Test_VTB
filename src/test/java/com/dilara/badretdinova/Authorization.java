@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
+//TODO Что за класс? Внутри у тебя тесты, классы тестов не экстендят страницы
 public class Authorization extends LoginPage {
     @Before
     public void setUp() {
@@ -24,12 +25,16 @@ public class Authorization extends LoginPage {
     public void authorization() {
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
+
+        //TODO ImplicityWait не используем, где нужно ожидания используем ExplicityWait
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         Assert.assertEquals("BilalovaLR", UserName.getText());
     }
 
     @After
     public void closePage() {
+
+        //TODO Если будешь закрыавть driver после тест, то второй тест у тебя упадет
         driver.quit();
         driver = null;
     }
