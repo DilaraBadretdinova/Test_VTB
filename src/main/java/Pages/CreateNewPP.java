@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -52,17 +53,34 @@ public class CreateNewPP extends Page{
     public WebElement codeUIP; //поле код
     @FindBy(xpath = "//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")
     public WebElement warning; //поле код
-
-    //номер документа
-    public void checkDocNumber(){
+//////////////////////////////////////////////////////////////
+    //номер документа не пусто
+    public void nonEmptyValueDocNumber(){
         numberDog.click();
         number.click();
-        String NumberDog_Str = numberDog.getAttribute("value");
+            }
+//ввод номера документа
+    public void writeDocNumber(){
         numberClear.click();
         number.click();
         number.clear();
-        number.sendKeys("197");
+        number.sendKeys("198");
     }
+// ввести только цифры
+    public void writeLettersDocNumber() {
+       number.click();
+       number.clear();
+       number.sendKeys("Error");
+            }
+    //ограничение 15 символов
+    public void restrictionDocNumber(){
+        number.click();
+        number.clear();
+        String numberDoc15="1111122222333334";
+        number.sendKeys(numberDoc15);
+
+            }
+    ///////////////////////////////////////////////////////
     //дата
     public void checkDocDate(){
         Date date = new Date();
