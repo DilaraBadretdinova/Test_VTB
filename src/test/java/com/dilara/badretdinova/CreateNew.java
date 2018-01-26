@@ -4,6 +4,7 @@ import Pages.CreateNewPP;
 import Pages.LoginPage;
 import Pages.MainPage;
 import User.UserInfo;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,7 +14,7 @@ public class CreateNew extends CreateNewPP{
     @Before
     public void setUp(){
         getDriver().get(ConfigProperties.getTestProperty("host"));
-        UserInfo user = new UserInfo("1111111111", "1111111111");
+        UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         new MainPage() .clickCreateNewPP();
@@ -25,11 +26,11 @@ public class CreateNew extends CreateNewPP{
 
  @Test
  public void verificationDocDate(){
-     new CreateNewPP() .checkDocDate();
+         new CreateNewPP() .checkDocDate();
  }
     @Test
     public void verificationTemplate(){
-        new CreateNewPP() .checkTemplate();
+          new CreateNewPP() .checkTemplate();
     }
     @Test
     public void verificationTypePayment(){
@@ -43,6 +44,10 @@ public class CreateNew extends CreateNewPP{
     public void verificationCodeEnter(){
         new CreateNewPP() .checkCodeEnter();
     }
-
+//@After
+//public void closePage(){
+//    driver.quit();
+  //  driver=null;
+//}
 
 }

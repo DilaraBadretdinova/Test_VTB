@@ -86,7 +86,7 @@ public class CreateNewPP extends Page{
     //очередность платежа
     public void checkPriorityOfPayment(){
 
-        PriorityOfPayment.click();
+       PriorityOfPayment.click();
         LinkPriorityOfPayment.click();
         ListPriorityOfPayment.click();
         WebDriverWait wait = new WebDriverWait(driver, 20);
