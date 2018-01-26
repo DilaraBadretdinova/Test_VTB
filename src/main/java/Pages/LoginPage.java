@@ -6,12 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-<<<<<<< HEAD
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-=======
-//TODO Поля пишутся с малеькой буквы, классы с большой
->>>>>>> a0cd9bca1981506964e3667bb47195bd0d27ab04
 
 import java.util.concurrent.TimeUnit;
 

@@ -90,7 +90,6 @@ public class CreateNewPP extends Page{
     }
     //вид платежа
     public void checkTypePayment() {
-        
         wait.until(ExpectedConditions.visibilityOf(paymentList));
         paymentList.click();
         paymentListSelect.click();

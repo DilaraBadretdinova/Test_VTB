@@ -15,13 +15,6 @@ import org.openqa.selenium.WebDriver;
 public class Authorization  {
    public WebDriver driver;
 
-<<<<<<< HEAD
-=======
-import java.util.concurrent.TimeUnit;
-
-//TODO Что за класс? Внутри у тебя тесты, классы тестов не экстендят страницы
-public class Authorization extends LoginPage {
->>>>>>> a0cd9bca1981506964e3667bb47195bd0d27ab04
     @Before
     public void setUp() {
         new Page(). getDriver().get(ConfigProperties.getTestProperty("host"));
@@ -30,7 +23,6 @@ public class Authorization extends LoginPage {
     @Test
     public void authorization() {
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
-<<<<<<< HEAD
         LoginPage loginPage = new LoginPage();
         loginPage.clickLoginButton(user);
         Assert.assertEquals("BilalovaLR", loginPage.userName.getText());
@@ -40,21 +32,6 @@ public class Authorization extends LoginPage {
     @After
     public void UpdatePage() {
        driver = null;
-=======
-        new LoginPage().clickLoginButton(user);
-
-        //TODO ImplicityWait не используем, где нужно ожидания используем ExplicityWait
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertEquals("BilalovaLR", UserName.getText());
-    }
-
-    @After
-    public void closePage() {
-
-        //TODO Если будешь закрыавть driver после тест, то второй тест у тебя упадет
-        driver.quit();
-        driver = null;
->>>>>>> a0cd9bca1981506964e3667bb47195bd0d27ab04
     }
 }
 

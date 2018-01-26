@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="57017ace-de01-4d80-8c72-6a96c705f07b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java" afterPath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java" afterPath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java" afterPath="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +27,10 @@
       <file leaf-file-name="ButtonCreateNewPP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516963725636" expanded="true" signature="563:824" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,8 +39,8 @@
       <file leaf-file-name="CreateNewPP.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="92" column="8" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +60,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516963725671" expanded="true" signature="1091:1450" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,25 +87,24 @@
       <file leaf-file-name="CreateNewDocPP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="481">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1549#1550#0" expanded="true" />
-                <element signature="e#1613#1614#0" expanded="true" />
-                <element signature="e#1656#1657#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <marker date="1516963725620" expanded="true" signature="631:934" ph="{...}" />
-                <marker date="1516963725620" expanded="true" signature="985:996" ph=" { " />
-                <marker date="1516963725620" expanded="true" signature="1037:1043" ph=" }" />
-                <marker date="1516963725620" expanded="true" signature="1092:1103" ph=" { " />
-                <marker date="1516963725620" expanded="true" signature="1142:1148" ph=" }" />
-                <marker date="1516963725620" expanded="true" signature="1198:1209" ph=" { " />
-                <marker date="1516963725620" expanded="true" signature="1249:1255" ph=" }" />
-                <marker date="1516963725620" expanded="true" signature="1308:1319" ph=" { " />
-                <marker date="1516963725620" expanded="true" signature="1362:1368" ph=" }" />
-                <marker date="1516963725620" expanded="true" signature="1431:1442" ph=" { " />
-                <marker date="1516963725620" expanded="true" signature="1491:1497" ph=" }" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,11 +113,14 @@
       <file leaf-file-name="Authorization.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="549">
+              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1516963725655" expanded="true" signature="1655:1661" ph=" }" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,12 +169,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewPP.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewPPP.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateButtonPP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java" />
       </list>
     </option>
   </component>
@@ -280,27 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Test_VTB (2)">
-    <configuration name="All in Test_VTB (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Test_VTB" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.All in Test_VTB (4)">
     <configuration name="All in Test_VTB (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Test_VTB" />
@@ -341,20 +337,35 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CreateNewDocPP.verificationDocDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.dilara.badretdinova.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in Test_VTB (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Test_VTB" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dilara.badretdinova" />
-      <option name="MAIN_CLASS_NAME" value="com.dilara.badretdinova.CreateNewDocPP" />
-      <option name="METHOD_NAME" value="verificationDocDate" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="All in Test_VTB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Test_VTB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -473,19 +484,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationDocDate" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationPriorityTypeOfPayment" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationPriorityTypeOfPayment" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationPriorityTypeOfPayment" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationDocDate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (4)" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in Test_VTB" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateNewDocPP.verificationPriorityTypeOfPayment" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Test_VTB (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +613,10 @@
           <caret line="67" column="49" lean-forward="false" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516963725655" expanded="true" signature="1655:1661" ph=" }" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,7 +635,10 @@
           <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516963725655" expanded="true" signature="1655:1661" ph=" }" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,7 +657,10 @@
           <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516963725655" expanded="true" signature="1655:1661" ph=" }" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,12 +835,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="549">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,68 +893,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/Authorization.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516963725655" expanded="true" signature="1655:1661" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1516963725671" expanded="true" signature="1091:1450" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/ButtonCreateNewPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1516963725636" expanded="true" signature="563:824" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dilara/badretdinova/CreateNewDocPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <marker date="1516963725620" expanded="true" signature="631:934" ph="{...}" />
-            <marker date="1516963725620" expanded="true" signature="985:996" ph=" { " />
-            <marker date="1516963725620" expanded="true" signature="1037:1043" ph=" }" />
-            <marker date="1516963725620" expanded="true" signature="1092:1103" ph=" { " />
-            <marker date="1516963725620" expanded="true" signature="1142:1148" ph=" }" />
-            <marker date="1516963725620" expanded="true" signature="1198:1209" ph=" { " />
-            <marker date="1516963725620" expanded="true" signature="1249:1255" ph=" }" />
-            <marker date="1516963725620" expanded="true" signature="1308:1319" ph=" { " />
-            <marker date="1516963725620" expanded="true" signature="1362:1368" ph=" }" />
-            <marker date="1516963725620" expanded="true" signature="1431:1442" ph=" { " />
-            <marker date="1516963725620" expanded="true" signature="1491:1497" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CreateNewPP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="92" column="8" lean-forward="false" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="83" column="21" lean-forward="true" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
