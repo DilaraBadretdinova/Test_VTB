@@ -8,16 +8,19 @@ import User.UserInfo;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import Pages.Page;
+import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class CreateNewDocPP extends Pages.CreateNewPP {
+public class CreateNewDocPP  {
+    public WebDriver driver;
+
     @Before
     public void setUp() {
-        getDriver().get(ConfigProperties.getTestProperty("host"));
+        new Page().getDriver().get(ConfigProperties.getTestProperty("host"));
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         new MainPage().clickCreateNewPP();
     }
 
@@ -49,11 +52,10 @@ public class CreateNewDocPP extends Pages.CreateNewPP {
     @Test
     public void verificationCodeEnter() {
         new Pages.CreateNewPP().checkCodeEnter();
-    }
-//@After
-//public void closePage(){
-//    driver.quit();
-    //  driver=null;
-//}
+            }
 
+    @After
+    public void updatePage() {
+        driver = null;
+}
 }

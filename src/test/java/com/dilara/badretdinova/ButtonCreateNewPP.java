@@ -7,27 +7,26 @@ import User.UserInfo;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import Pages.Page;
+import org.openqa.selenium.WebDriver;
 
-import java.util.concurrent.TimeUnit;
 
-public class ButtonCreateNewPP extends MainPage {
+public class ButtonCreateNewPP  {
+    public WebDriver driver;
     @Before
     public void setUp() {
-        getDriver().get(ConfigProperties.getTestProperty("host"));
+        new Page() .getDriver().get(ConfigProperties.getTestProperty("host"));
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
-
     }
 
     @Test
     public void clickButtonCreateNewPP() {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        new MainPage().clickCreateNewPP();
+         new MainPage().clickCreateNewPP();
     }
 
     @After
-    public void closePage() {
-        driver.quit();
-        driver = null;
+    public void updatePage() {
+           driver = null;
     }
 }

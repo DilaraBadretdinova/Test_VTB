@@ -7,31 +7,31 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 
-
+import Pages.Page;
 import Pages.ConfigProperties;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 
+public class Authorization  {
+   public WebDriver driver;
 
-import java.util.concurrent.TimeUnit;
-
-public class Authorization extends LoginPage {
     @Before
     public void setUp() {
-        getDriver().get(ConfigProperties.getTestProperty("host"));
+        new Page(). getDriver().get(ConfigProperties.getTestProperty("host"));
     }
 
     @Test
     public void authorization() {
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
-        new LoginPage().clickLoginButton(user);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        Assert.assertEquals("BilalovaLR", UserName.getText());
-    }
+        LoginPage loginPage = new LoginPage();
+        loginPage.clickLoginButton(user);
+        Assert.assertEquals("BilalovaLR", loginPage.userName.getText());
+        System.out.println("Passed");
+          }
 
     @After
-    public void closePage() {
-        driver.quit();
-        driver = null;
+    public void UpdatePage() {
+       driver = null;
     }
 }
 

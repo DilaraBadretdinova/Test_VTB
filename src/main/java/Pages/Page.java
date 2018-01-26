@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-       public abstract class Page {
+       public class Page {
 
         protected static WebDriver driver;
         protected WebDriverWait wait;
