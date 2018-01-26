@@ -14,6 +14,8 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.concurrent.TimeUnit;
 
+
+//TODO Поля пишутся с малеькой буквы, классы с большой
 public class CreateNewPP extends Page{
     private final Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
