@@ -1,39 +1,39 @@
 package com.dilara.badretdinova;
 
 import Pages.LoginPage;
-import Pages.MainPage;
+
 import User.UserInfo;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-import static Pages.Page.getDriver;
+
+
 import Pages.ConfigProperties;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 
 import java.util.concurrent.TimeUnit;
 
-public class Authorization extends LoginPage{
-   @Before
+public class Authorization extends LoginPage {
+    @Before
     public void setUp() {
         getDriver().get(ConfigProperties.getTestProperty("host"));
     }
 
-        @Test
-    public  void authorization() {
-            UserInfo user = new UserInfo("1111111111", "1111111111");
-            new LoginPage().clickLoginButton(user);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-             Assert.assertEquals("BilalovaLR", UserName2.getText());
-        }
+    @Test
+    public void authorization() {
+        UserInfo user = new UserInfo("1111111111", "1111111111");
+        new LoginPage().clickLoginButton(user);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Assert.assertEquals("BilalovaLR", UserName2.getText());
+    }
 
-     @After
-    public void closePage(){
-       driver.quit();
-       driver=null;
-     }
-        }
+    @After
+    public void closePage() {
+        driver.quit();
+        driver = null;
+    }
+}
 
 /*
 public class TestVTB extends ChromeSettings {
