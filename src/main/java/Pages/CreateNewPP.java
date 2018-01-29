@@ -17,10 +17,10 @@ import java.util.concurrent.TimeUnit;
 
 
 //TODO Поля пишутся с малеькой буквы, классы с большой
-public class CreateNewPP extends Page{
+public class CreateNewPP extends Page {
     private final Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
-   public WebElement number; //Поле Номер документа
+    public WebElement number; //Поле Номер документа
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
     public WebElement numberDog;
     @FindBy(css = "div.field__clean")
@@ -38,51 +38,58 @@ public class CreateNewPP extends Page{
     @FindBy(xpath = "//div[2]/div/label/div")
     public WebElement template_Chekbox; //чекбоксы в списке шаблонов
     @FindBy(xpath = "//button[@class='Button__base--3ZP3W Button__basePrimary--3ryz2']/div")
-    public WebElement  template_button; //кнопка выбора шаблонов
+    public WebElement template_button; //кнопка выбора шаблонов
     @FindBy(xpath = "//input[@value='Не указан']")
-    public WebElement  paymentList; //Поле Вид платежа
+    public WebElement paymentList; //Поле Вид платежа
     @FindBy(xpath = "//div[@class='field__optionVal1' and text()='Срочно']")
-    public WebElement  paymentListSelect; //Элементы списка Вид платежа
+    public WebElement paymentListSelect; //Элементы списка Вид платежа
+    @FindBy(xpath = "//input[@value='Срочно']")
+    public WebElement paymentList_quickly;
+    @FindBy(xpath = "//input[@value='5' and @type='text']")
+    public WebElement paymentList_code;
     @FindBy(xpath = "//div[@title='Очередность платежа']//div/div/i")
-    public WebElement  priorityOfPayment; //Поле очередность платежа
+    public WebElement priorityOfPayment; //Поле очередность платежа
     @FindBy(xpath = "//button[@class='field__labelBtn' and @type='button' and text()='Очередность платежа']")
-    public WebElement  linkPriorityOfPayment; //Ссылка очередность платежа
+    public WebElement linkPriorityOfPayment; //Ссылка очередность платежа
     @FindBy(xpath = "//div[@tabindex][2]/div[2]/div")
-    public WebElement  listPriorityOfPayment; //список очередностей
+    public WebElement listPriorityOfPayment; //список очередностей
     @FindBy(xpath = "//div[@class='Button__labelClass--_0Dmv' and text()='Применить']")
-    public WebElement  buttonPriorityOfPayment; //кнопка выбора очередности
+    public WebElement buttonPriorityOfPayment; //кнопка выбора очередности
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable' and @value and @placeholder='УИН/УИП' and @maxlength='25']")
     public WebElement codeUIP; //поле код
     @FindBy(xpath = "//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")
     public WebElement warning; //поле код
 //////////////////////////////////////////////////////////////
-  //  Номер документа
+    //  Номер документа
 
     //номер документа не пусто
-    public void nonEmptyValueDocNumber(){
+    public void nonEmptyValueDocNumber() {
         numberDog.click();
         number.click();
-            }
-//ввод номера документа
-    public void writeDocNumber(){
+    }
+
+    //ввод номера документа
+    public void writeDocNumber() {
         numberClear.click();
         number.click();
         number.clear();
         number.sendKeys("198");
     }
-// ввести только цифры
+
+    // ввести только цифры
     public void writeLettersDocNumber() {
-       number.click();
-       number.clear();
-       number.sendKeys("Error");
-            }
-    //ограничение 15 символов
-    public void restrictionDocNumber(){
         number.click();
         number.clear();
-        String numberDoc15="1111122222333334";
+        number.sendKeys("Error");
+    }
+
+    //ограничение 15 символов
+    public void restrictionDocNumber() {
+        number.click();
+        number.clear();
+        String numberDoc15 = "1111122222333334";
         number.sendKeys(numberDoc15);
-            }
+    }
 ///////////////////////////////////////////////////////////
 
     //Дата
@@ -97,8 +104,9 @@ public class CreateNewPP extends Page{
         dDate = format.format(calendar.getTime());
         docDate.sendKeys(dDate);
     }
+
     //ввести только цифры
-    public void writeLettersDocDate(){
+    public void writeLettersDocDate() {
         docDate.clear();
         docDate.sendKeys("as.df.qwer");
     }
@@ -112,14 +120,16 @@ public class CreateNewPP extends Page{
         wait.until(ExpectedConditions.visibilityOf(list));
         list.click();
     }
+
     //открытие скроллера списка шаблонов
     public void openLinkTemplate() {
         template_Link.click();
         wait.until(ExpectedConditions.visibilityOf(template_List));
 
     }
+
     //выбор из скроллера список шаблонов
-    public void selectFromLinkTemplate(){
+    public void selectFromLinkTemplate() {
         wait.until(ExpectedConditions.visibilityOf(template_Chekbox));
         template_Chekbox.click();
         wait.until(ExpectedConditions.visibilityOf(template_button));
@@ -128,26 +138,28 @@ public class CreateNewPP extends Page{
 /////////////////////////////////////////////////////////////////
 
     //Вид платежа
-    public void checkTypePayment() {
+    //выбор вида платежа
+    public void selectTypePayment() {
         wait.until(ExpectedConditions.visibilityOf(paymentList));
         paymentList.click();
         paymentListSelect.click();
-            }
+    }
 //////////////////////////////////////////////////////////////
 
     //Очередность платежа
-    public void checkPriorityOfPayment(){
+    public void checkPriorityOfPayment() {
         wait.until(ExpectedConditions.visibilityOf(priorityOfPayment));
-         priorityOfPayment.click();
+        priorityOfPayment.click();
         linkPriorityOfPayment.click();
         wait.until(ExpectedConditions.visibilityOf(listPriorityOfPayment));
         listPriorityOfPayment.click();
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")));
         buttonPriorityOfPayment.click();
-           }
-/////////////////////////////////////////////////////////////
+    }
+
+    /////////////////////////////////////////////////////////////
     //Код
-    public void checkCodeEnter(){
+    public void checkCodeEnter() {
         codeUIP.click();
         codeUIP.clear();
         codeUIP.sendKeys("39210202010061000160");
