@@ -32,7 +32,9 @@ public class CreateNewPP extends Page{
     @FindBy(xpath = "//div[@tabindex][3]")
     public WebElement list; //Выпадающий список шаблонов
     @FindBy(xpath = "//button[text()='Шаблон']")
-    public WebElement template_List; // Ссылка Шаблоны
+    public WebElement template_Link; // Ссылка Шаблоны
+    @FindBy(xpath = "//div[@class='OverlapHeader__title--FWOgP' and text()='Шаблоны платежного поручения']")
+    public WebElement template_List;//скроллер список шаблонов
     @FindBy(xpath = "//div[2]/div/label/div")
     public WebElement template_Chekbox; //чекбоксы в списке шаблонов
     @FindBy(xpath = "//button[@class='Button__base--3ZP3W Button__basePrimary--3ryz2']/div")
@@ -54,6 +56,8 @@ public class CreateNewPP extends Page{
     @FindBy(xpath = "//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")
     public WebElement warning; //поле код
 //////////////////////////////////////////////////////////////
+  //  Номер документа
+
     //номер документа не пусто
     public void nonEmptyValueDocNumber(){
         numberDog.click();
@@ -78,42 +82,60 @@ public class CreateNewPP extends Page{
         number.clear();
         String numberDoc15="1111122222333334";
         number.sendKeys(numberDoc15);
-
             }
-    ///////////////////////////////////////////////////////
-    //дата
-    public void checkDocDate(){
+///////////////////////////////////////////////////////////
+
+    //Дата
+    //текущая дата
+    public void writeDocDate() {
         Date date = new Date();
         SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
         Calendar calendar = new GregorianCalendar();
-        String dDate =  docDate.getAttribute("value");
-        String date_Current = format.format(date.getTime());
-      //  Assert.assertEquals(DDate, Date_Current);
+        String dDate = docDate.getAttribute("value");
         docDate.click();
         calendar.add(Calendar.DAY_OF_YEAR, 1);
         dDate = format.format(calendar.getTime());
         docDate.sendKeys(dDate);
     }
-    //шаблон
-    public void checkTemplate(){
+    //ввести только цифры
+    public void writeLettersDocDate(){
+        docDate.clear();
+        docDate.sendKeys("as.df.qwer");
+    }
+//////////////////////////////////////////////////////////////////
+
+    //Шаблон
+    //выбрать из выпадающего списка
+    public void selectFromListTemplate() {
         wait.until(ExpectedConditions.visibilityOf(template));
         template.click();
         wait.until(ExpectedConditions.visibilityOf(list));
         list.click();
-        template_List.click();
+    }
+    //открытие скроллера списка шаблонов
+    public void openLinkTemplate() {
+        template_Link.click();
+        wait.until(ExpectedConditions.visibilityOf(template_List));
+
+    }
+    //выбор из скроллера список шаблонов
+    public void selectFromLinkTemplate(){
         wait.until(ExpectedConditions.visibilityOf(template_Chekbox));
         template_Chekbox.click();
         wait.until(ExpectedConditions.visibilityOf(template_button));
         template_button.click();
     }
-    //вид платежа
+/////////////////////////////////////////////////////////////////
+
+    //Вид платежа
     public void checkTypePayment() {
         wait.until(ExpectedConditions.visibilityOf(paymentList));
         paymentList.click();
         paymentListSelect.click();
             }
+//////////////////////////////////////////////////////////////
 
-    //очередность платежа
+    //Очередность платежа
     public void checkPriorityOfPayment(){
         wait.until(ExpectedConditions.visibilityOf(priorityOfPayment));
          priorityOfPayment.click();
@@ -123,7 +145,8 @@ public class CreateNewPP extends Page{
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//div[@class='PushItem__text--14a_h' and text()='Внимание! Платеж по системе БЭСП. Повышенная комиссия']")));
         buttonPriorityOfPayment.click();
            }
-
+/////////////////////////////////////////////////////////////
+    //Код
     public void checkCodeEnter(){
         codeUIP.click();
         codeUIP.clear();
