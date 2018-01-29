@@ -22,7 +22,8 @@ public class DeleteMessages {
         new MainPage().clickCreateNewPP();
 
     }
-//отмена/удаление
+
+    //отмена/удаление
     @Test
     public void cancleDeleteMessage() {
         DeleteMessageForBank deleteMessageForBank = new DeleteMessageForBank();

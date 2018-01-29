@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static Pages.Page.driver;
 
-public class DeleteMessageForBank extends Page{
+public class DeleteMessageForBank extends Page {
 
     @FindBy(xpath = "//div[text()='Сообщение для банка']")
     public WebElement messageForBank; //панель Сообщение для банка
@@ -41,21 +41,21 @@ public class DeleteMessageForBank extends Page{
     public WebElement yesDeleteButton;//удалить сообщение
 
 
-        private final Wait<WebDriver> wait = new WebDriverWait(driver, 7, 1000);
+    private final Wait<WebDriver> wait = new WebDriverWait(driver, 7, 1000);
 
 
     public void cancleDeleteMessageForBank() {
-       messageForBank.click();
-       buttonMessageForBank.click();
-       buttonInsertMessageForBank.click();
-       inputMessageForBank.sendKeys("My Test");
-       buttonSaveMessageForBank.click();
-       wait.until(ExpectedConditions.visibilityOf(listMessageForBank));
-       listMessageForBank.click();
-       deleteListMessageForBank.click();
+        messageForBank.click();
+        buttonMessageForBank.click();
+        buttonInsertMessageForBank.click();
+        inputMessageForBank.sendKeys("My Test");
+        buttonSaveMessageForBank.click();
+        wait.until(ExpectedConditions.visibilityOf(listMessageForBank));
+        listMessageForBank.click();
+        deleteListMessageForBank.click();
         closeConfirmation.click();
         deleteListMessageForBank.click();
         yesDeleteButton.click();
     }
 
-    }
+}

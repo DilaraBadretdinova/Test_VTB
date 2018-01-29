@@ -14,7 +14,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
         public Page() {
             PageFactory.initElements(getDriver(),  this);
-
         }
 
         public static WebDriver getDriver() {

@@ -13,30 +13,33 @@ import java.util.concurrent.TimeUnit;
 
 public class LoginPage extends Page {
     private final Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
-        @FindBy(xpath = "//input[@type='text']")
-        private WebElement login; //поле логин
-        @FindBy(xpath = "//input[@type='password']")
-        private WebElement password; //поле пароль
-        @FindBy(xpath = "//button[text()='Войти']")
-        private WebElement loginButton; //кнопка Войти
-       @FindBy(xpath = "//div[text()='BilalovaLR']")
-       public WebElement userName; //кнопка Войти
+    @FindBy(xpath = "//input[@type='text']")
+    private WebElement login; //поле логин
 
-        public MainPage clickLoginButton(UserInfo user) {
+    @FindBy(xpath = "//input[@type='password']")
+    private WebElement password; //поле пароль
 
-            login.click();
-            login.clear();
-            login.sendKeys(user.getLogin());
+    @FindBy(xpath = "//button[text()='Войти']")
+    private WebElement loginButton; //кнопка Войти
 
-            password.click();
-            password.clear();
-            password.sendKeys(user.getPassword());
-            loginButton.click();
-            wait.until(ExpectedConditions.visibilityOf(userName));
-            return new MainPage();
+    @FindBy(xpath = "//div[text()='BilalovaLR']")
+    public WebElement userName; //кнопка Войти
 
-        }
+    public MainPage clickLoginButton(UserInfo user) {
 
-   }
+        login.click();
+        login.clear();
+        login.sendKeys(user.getLogin());
+
+        password.click();
+        password.clear();
+        password.sendKeys(user.getPassword());
+        loginButton.click();
+        wait.until(ExpectedConditions.visibilityOf(userName));
+        return new MainPage();
+
+    }
+
+}
 
 

@@ -11,22 +11,23 @@ import Pages.Page;
 import org.openqa.selenium.WebDriver;
 
 
-public class ButtonCreateNewPP  {
+public class ButtonCreateNewPP {
     public WebDriver driver;
+
     @Before
     public void setUp() {
-        new Page() .getDriver().get(ConfigProperties.getTestProperty("host"));
+        new Page().getDriver().get(ConfigProperties.getTestProperty("host"));
         UserInfo user = new UserInfo(ConfigProperties.getTestProperty("login"), ConfigProperties.getTestProperty("password"));
         new LoginPage().clickLoginButton(user);
     }
 
     @Test
     public void clickButtonCreateNewPP() {
-         new MainPage().clickCreateNewPP();
+        new MainPage().clickCreateNewPP();
     }
 
     @After
     public void updatePage() {
-           driver = null;
+        driver = null;
     }
 }

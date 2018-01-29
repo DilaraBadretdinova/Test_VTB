@@ -15,12 +15,13 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.logging.Logger;
 
-public class Authorization  {
-   public WebDriver driver;
+public class Authorization {
+    public WebDriver driver;
     private static Logger log = Logger.getLogger(Authorization.class.getName());
+
     @Before
     public void setUp() {
-        new Page(). getDriver().get(ConfigProperties.getTestProperty("host"));
+        new Page().getDriver().get(ConfigProperties.getTestProperty("host"));
     }
 
     @Test
@@ -30,11 +31,11 @@ public class Authorization  {
         loginPage.clickLoginButton(user);
         Assert.assertEquals("BilalovaLR", loginPage.userName.getText());
         log.info("Passed");
-          }
+    }
 
     @After
     public void UpdatePage() {
-       driver = null;
+        driver = null;
     }
 }
 
