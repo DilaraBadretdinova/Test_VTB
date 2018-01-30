@@ -1,8 +1,10 @@
 package com.dilara.badretdinova;
 
 import Pages.*;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import User.UserInfo;
 import Pages.DeleteMessageForBank;
@@ -23,11 +25,10 @@ public class DeleteMessages {
 
     }
 
-    //отмена/удаление
+    //удаление
     @Test
-    public void cancleDeleteMessage() {
+    public void deleteMessage() {
         DeleteMessageForBank deleteMessageForBank = new DeleteMessageForBank();
-        deleteMessageForBank.cancleDeleteMessageForBank();
+        deleteMessageForBank.deleteMessageForBank();
     }
-
 }

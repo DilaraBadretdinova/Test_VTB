@@ -1,13 +1,12 @@
 package Pages;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.NoSuchElementException;
 
 import static Pages.Page.driver;
 
@@ -38,13 +37,13 @@ public class DeleteMessageForBank extends Page {
     public WebElement closeConfirmation;//удалить сообщение
 
     @FindBy(xpath = "//div[text()='Да']")
-    public WebElement yesDeleteButton;//удалить сообщение
+    public WebElement yesDeleteButton;//подтвердить удаление сообщения
 
 
     private final Wait<WebDriver> wait = new WebDriverWait(driver, 7, 1000);
 
 
-    public void cancleDeleteMessageForBank() {
+    public void deleteMessageForBank() {
         messageForBank.click();
         buttonMessageForBank.click();
         buttonInsertMessageForBank.click();
