@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class CreateNewPP extends Page {
-    private final Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
+
     @FindBy(xpath = "//input[@type='text' and @class='field__input field__input_clearable']")
     public WebElement number; //Поле Номер документа
 
@@ -130,6 +130,7 @@ public class CreateNewPP extends Page {
     //Шаблон
     //выбрать из выпадающего списка
     public void selectFromListTemplate() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(template));
         template.click();
         wait.until(ExpectedConditions.visibilityOf(list));
@@ -138,6 +139,7 @@ public class CreateNewPP extends Page {
 
     //открытие скроллера списка шаблонов
     public void openLinkTemplate() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         template_Link.click();
         wait.until(ExpectedConditions.visibilityOf(template_List));
 
@@ -145,6 +147,7 @@ public class CreateNewPP extends Page {
 
     //выбор из скроллера список шаблонов
     public void selectFromLinkTemplate() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(template_Chekbox));
         template_Chekbox.click();
         wait.until(ExpectedConditions.visibilityOf(template_button));
@@ -155,6 +158,7 @@ public class CreateNewPP extends Page {
     //Вид платежа
     //выбор вида платежа
     public void selectTypePayment() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(paymentList));
         paymentList.click();
         paymentListSelect.click();
@@ -163,6 +167,7 @@ public class CreateNewPP extends Page {
 
     //Очередность платежа
     public void checkPriorityOfPayment() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(priorityOfPayment));
         priorityOfPayment.click();
         linkPriorityOfPayment.click();

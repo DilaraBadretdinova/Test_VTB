@@ -8,11 +8,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import java.util.function.Function;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage extends Page {
-    private final Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
+
     @FindBy(xpath = "//input[@type='text']")
     private WebElement login; //поле логин
 
@@ -26,11 +26,10 @@ public class LoginPage extends Page {
     public WebElement userName; //кнопка Войти
 
     public MainPage clickLoginButton(UserInfo user) {
-
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         login.click();
         login.clear();
         login.sendKeys(user.getLogin());
-
         password.click();
         password.clear();
         password.sendKeys(user.getPassword());

@@ -3,15 +3,14 @@ package Pages;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.util.function.Function;
 
 import java.util.NoSuchElementException;
 
 import static Pages.Page.driver;
 
 public class DeleteMessageForBank extends Page {
-
     @FindBy(xpath = "//div[text()='Сообщение для банка']")
     public WebElement messageForBank; //панель Сообщение для банка
 
@@ -40,16 +39,13 @@ public class DeleteMessageForBank extends Page {
     public WebElement yesDeleteButton;//подтвердить удаление сообщения
 
 
-    private final Wait<WebDriver> wait = new WebDriverWait(driver, 7, 1000);
-
-
     public void deleteMessageForBank() {
-        messageForBank.click();
+         messageForBank.click();
         buttonMessageForBank.click();
         buttonInsertMessageForBank.click();
         inputMessageForBank.sendKeys("My Test");
         buttonSaveMessageForBank.click();
-        wait.until(ExpectedConditions.visibilityOf(listMessageForBank));
+        new WebDriverWait(getDriver(), 7).until(ExpectedConditions.visibilityOf(listMessageForBank));
         listMessageForBank.click();
         deleteListMessageForBank.click();
         closeConfirmation.click();
