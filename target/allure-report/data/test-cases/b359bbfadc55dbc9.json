@@ -1,0 +1,64 @@
+{
+  "uid" : "b359bbfadc55dbc9",
+  "name" : "deleteMessage",
+  "fullName" : "com.dilara.badretdinova.DeleteMessagesTest.deleteMessage",
+  "historyId" : "efddf35341052c8236b4d08f67e7755c",
+  "time" : {
+    "start" : 1517583202487,
+    "stop" : 1517583206206,
+    "duration" : 3719
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L22C96I"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "47712@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "com.dilara.badretdinova.DeleteMessagesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dilara.badretdinova.DeleteMessagesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteMessage"
+  }, {
+    "name" : "package",
+    "value" : "com.dilara.badretdinova.DeleteMessagesTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b359bbfadc55dbc9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

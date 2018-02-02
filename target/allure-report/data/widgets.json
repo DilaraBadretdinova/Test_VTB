@@ -1,0 +1,91 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "time" : {
+      "start" : 1517583153988,
+      "stop" : 1517583206206,
+      "duration" : 52218,
+      "minDuration" : 2538,
+      "maxDuration" : 27847,
+      "sumDuration" : 52183
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 4,
+    "items" : [ {
+      "uid" : "e1f27ad23c824406de1083908964af96",
+      "name" : "com.dilara.badretdinova.CreateNewDocPPTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      }
+    }, {
+      "uid" : "65b8fe2d042c1972a13bac13b907d603",
+      "name" : "com.dilara.badretdinova.AuthorizationTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "ead6de51a6ff7044d2ebd13083d11b90",
+      "name" : "com.dilara.badretdinova.ButtonCreateNewPPTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "uid" : "3852482af0f78f1bde940e22a91f6023",
+      "name" : "com.dilara.badretdinova.DeleteMessagesTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ],
+  "behaviors" : {
+    "total" : 9,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

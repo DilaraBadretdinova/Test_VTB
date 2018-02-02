@@ -9,8 +9,8 @@
         <module name="Test_VTB" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Test_VTB" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Test_VTB" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

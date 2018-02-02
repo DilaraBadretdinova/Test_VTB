@@ -1,0 +1,64 @@
+{
+  "uid" : "42e500eea351091c",
+  "name" : "authorization",
+  "fullName" : "com.dilara.badretdinova.AuthorizationTest.authorization",
+  "historyId" : "783518fedb08d9b9721fb79811763dd5",
+  "time" : {
+    "start" : 1517583153988,
+    "stop" : 1517583181835,
+    "duration" : 27847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L22C96I"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "47712@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "com.dilara.badretdinova.AuthorizationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dilara.badretdinova.AuthorizationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorization"
+  }, {
+    "name" : "package",
+    "value" : "com.dilara.badretdinova.AuthorizationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42e500eea351091c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

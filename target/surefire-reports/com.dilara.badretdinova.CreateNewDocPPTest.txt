@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.dilara.badretdinova.CreateNewDocPPTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.951 s - in com.dilara.badretdinova.CreateNewDocPPTest

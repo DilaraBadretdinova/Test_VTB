@@ -1,0 +1,64 @@
+{
+  "uid" : "bfbcbed493a3dc3",
+  "name" : "clickButtonCreateNewPP",
+  "fullName" : "com.dilara.badretdinova.ButtonCreateNewPPTest.clickButtonCreateNewPP",
+  "historyId" : "386e7fb708b3d5581583b150f967d948",
+  "time" : {
+    "start" : 1517583181861,
+    "stop" : 1517583184520,
+    "duration" : 2659
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L22C96I"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "47712@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickButtonCreateNewPP"
+  }, {
+    "name" : "package",
+    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfbcbed493a3dc3.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

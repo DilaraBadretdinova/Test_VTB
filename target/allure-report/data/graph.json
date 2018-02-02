@@ -1,0 +1,91 @@
+[ {
+  "uid" : "b17b9549a3dba448",
+  "name" : "verificationDocDate",
+  "time" : {
+    "start" : 1517583190789,
+    "stop" : 1517583193327,
+    "duration" : 2538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eba243c4a5f6127",
+  "name" : "verificationPriorityTypeOfPayment",
+  "time" : {
+    "start" : 1517583196472,
+    "stop" : 1517583199569,
+    "duration" : 3097
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b359bbfadc55dbc9",
+  "name" : "deleteMessage",
+  "time" : {
+    "start" : 1517583202487,
+    "stop" : 1517583206206,
+    "duration" : 3719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfbcbed493a3dc3",
+  "name" : "clickButtonCreateNewPP",
+  "time" : {
+    "start" : 1517583181861,
+    "stop" : 1517583184520,
+    "duration" : 2659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa2d1a7197975d7f",
+  "name" : "verificationTypePayment",
+  "time" : {
+    "start" : 1517583184522,
+    "stop" : 1517583187490,
+    "duration" : 2968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30aef948138efc3e",
+  "name" : "verificationCodeEnter",
+  "time" : {
+    "start" : 1517583199570,
+    "stop" : 1517583202485,
+    "duration" : 2915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6013b55ecf819f5c",
+  "name" : "verificationDocNumber",
+  "time" : {
+    "start" : 1517583187491,
+    "stop" : 1517583190788,
+    "duration" : 3297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb7a00298d458e36",
+  "name" : "verificationTemplate",
+  "time" : {
+    "start" : 1517583193328,
+    "stop" : 1517583196471,
+    "duration" : 3143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42e500eea351091c",
+  "name" : "authorization",
+  "time" : {
+    "start" : 1517583153988,
+    "stop" : 1517583181835,
+    "duration" : 27847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,133 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.dilara.badretdinova",
+    "children" : [ {
+      "name" : "AuthorizationTest",
+      "children" : [ {
+        "name" : "authorization",
+        "uid" : "42e500eea351091c",
+        "parentUid" : "f6b19a98c216666fc615897e81f27fbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583153988,
+          "stop" : 1517583181835,
+          "duration" : 27847
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6b19a98c216666fc615897e81f27fbc"
+    }, {
+      "name" : "ButtonCreateNewPPTest",
+      "children" : [ {
+        "name" : "clickButtonCreateNewPP",
+        "uid" : "bfbcbed493a3dc3",
+        "parentUid" : "94129654cd42c81c7ea822e79ae68e95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583181861,
+          "stop" : 1517583184520,
+          "duration" : 2659
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94129654cd42c81c7ea822e79ae68e95"
+    }, {
+      "name" : "CreateNewDocPPTest",
+      "children" : [ {
+        "name" : "verificationTypePayment",
+        "uid" : "aa2d1a7197975d7f",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583184522,
+          "stop" : 1517583187490,
+          "duration" : 2968
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verificationDocNumber",
+        "uid" : "6013b55ecf819f5c",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583187491,
+          "stop" : 1517583190788,
+          "duration" : 3297
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verificationDocDate",
+        "uid" : "b17b9549a3dba448",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583190789,
+          "stop" : 1517583193327,
+          "duration" : 2538
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verificationTemplate",
+        "uid" : "eb7a00298d458e36",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583193328,
+          "stop" : 1517583196471,
+          "duration" : 3143
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verificationPriorityTypeOfPayment",
+        "uid" : "2eba243c4a5f6127",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583196472,
+          "stop" : 1517583199569,
+          "duration" : 3097
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verificationCodeEnter",
+        "uid" : "30aef948138efc3e",
+        "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583199570,
+          "stop" : 1517583202485,
+          "duration" : 2915
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cb25361251feb4d6e224923b9bdf263"
+    }, {
+      "name" : "DeleteMessagesTest",
+      "children" : [ {
+        "name" : "deleteMessage",
+        "uid" : "b359bbfadc55dbc9",
+        "parentUid" : "40e7e9b60059f99473ee34b71ccf17dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1517583202487,
+          "stop" : 1517583206206,
+          "duration" : 3719
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40e7e9b60059f99473ee34b71ccf17dc"
+    } ],
+    "uid" : "com.dilara.badretdinova"
+  } ]
+}
