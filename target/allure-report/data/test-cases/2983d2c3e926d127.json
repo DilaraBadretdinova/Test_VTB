@@ -1,15 +1,15 @@
 {
-  "uid" : "b359bbfadc55dbc9",
-  "name" : "deleteMessage",
+  "uid" : "2983d2c3e926d127",
+  "name" : "Удаление сообщения из справочника",
   "fullName" : "com.dilara.badretdinova.DeleteMessagesTest.deleteMessage",
-  "historyId" : "efddf35341052c8236b4d08f67e7755c",
+  "historyId" : "6bd2b8c3fc352990c61c8b92c8c0573e",
   "time" : {
-    "start" : 1517583202487,
-    "stop" : 1517583206206,
-    "duration" : 3719
+    "start" : 1517988224563,
+    "stop" : 1517988228182,
+    "duration" : 3619
   },
-  "description" : "",
-  "descriptionHtml" : "",
+  "description" : "Создать новое сообщение, затем отменить удаление и удалить",
+  "descriptionHtml" : "<p>Создать новое сообщение, затем отменить удаление и удалить</p>\n",
   "status" : "passed",
   "statusDetails" : {
     "flaky" : false
@@ -27,10 +27,10 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.DeleteMessagesTest"
+    "value" : "Удаление сообщения из справочника"
   }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.DeleteMessagesTest"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b359bbfadc55dbc9.json",
+  "source" : "2983d2c3e926d127.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

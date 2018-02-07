@@ -1,90 +1,90 @@
 [ {
-  "uid" : "b17b9549a3dba448",
-  "name" : "verificationDocDate",
+  "uid" : "a83968f4d365a15f",
+  "name" : "Проверка поля Дата документа",
   "time" : {
-    "start" : 1517583190789,
-    "stop" : 1517583193327,
-    "duration" : 2538
+    "start" : 1517988212405,
+    "stop" : 1517988215066,
+    "duration" : 2661
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2eba243c4a5f6127",
-  "name" : "verificationPriorityTypeOfPayment",
+  "uid" : "3a809a2306b03799",
+  "name" : "Проверка поля Код",
   "time" : {
-    "start" : 1517583196472,
-    "stop" : 1517583199569,
-    "duration" : 3097
+    "start" : 1517988221698,
+    "stop" : 1517988224561,
+    "duration" : 2863
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b359bbfadc55dbc9",
-  "name" : "deleteMessage",
+  "uid" : "1b94f8ea8deefa6b",
+  "name" : "Проверка списка Шаблоны",
   "time" : {
-    "start" : 1517583202487,
-    "stop" : 1517583206206,
-    "duration" : 3719
+    "start" : 1517988215067,
+    "stop" : 1517988218734,
+    "duration" : 3667
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bfbcbed493a3dc3",
-  "name" : "clickButtonCreateNewPP",
+  "uid" : "a0f78e9ad77813a8",
+  "name" : "Проверка поля Номер документа",
   "time" : {
-    "start" : 1517583181861,
-    "stop" : 1517583184520,
-    "duration" : 2659
+    "start" : 1517988201423,
+    "stop" : 1517988212405,
+    "duration" : 10982
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "aa2d1a7197975d7f",
-  "name" : "verificationTypePayment",
+  "uid" : "978f2ef311b0c169",
+  "name" : "Проверка списка Вид платежа",
   "time" : {
-    "start" : 1517583184522,
-    "stop" : 1517583187490,
-    "duration" : 2968
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30aef948138efc3e",
-  "name" : "verificationCodeEnter",
-  "time" : {
-    "start" : 1517583199570,
-    "stop" : 1517583202485,
+    "start" : 1517988198507,
+    "stop" : 1517988201422,
     "duration" : 2915
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "6013b55ecf819f5c",
-  "name" : "verificationDocNumber",
+  "uid" : "2983d2c3e926d127",
+  "name" : "Удаление сообщения из справочника",
   "time" : {
-    "start" : 1517583187491,
-    "stop" : 1517583190788,
-    "duration" : 3297
+    "start" : 1517988224563,
+    "stop" : 1517988228182,
+    "duration" : 3619
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "eb7a00298d458e36",
-  "name" : "verificationTemplate",
+  "uid" : "e660be4dc061c0df",
+  "name" : "Страница авторизации",
   "time" : {
-    "start" : 1517583193328,
-    "stop" : 1517583196471,
-    "duration" : 3143
+    "start" : 1517988121814,
+    "stop" : 1517988196289,
+    "duration" : 74475
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "42e500eea351091c",
-  "name" : "authorization",
+  "uid" : "4155d3800840d061",
+  "name" : "Кнопка 'Создать ПП'",
   "time" : {
-    "start" : 1517583153988,
-    "stop" : 1517583181835,
-    "duration" : 27847
+    "start" : 1517988196320,
+    "stop" : 1517988198505,
+    "duration" : 2185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "325010642b6b61b3",
+  "name" : "Проверка Очередность платежа",
+  "time" : {
+    "start" : 1517988218735,
+    "stop" : 1517988221697,
+    "duration" : 2962
   },
   "status" : "passed",
   "severity" : "normal"

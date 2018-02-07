@@ -1,12 +1,12 @@
 {
-  "uid" : "b17b9549a3dba448",
-  "name" : "verificationDocDate",
-  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationDocDate",
-  "historyId" : "472afdfc731102cda1bf24fb9522c34e",
+  "uid" : "1b94f8ea8deefa6b",
+  "name" : "Проверка списка Шаблоны",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationTemplate",
+  "historyId" : "95ae98aafee8e3b7f46ec51c591143a2",
   "time" : {
-    "start" : 1517583190789,
-    "stop" : 1517583193327,
-    "duration" : 2538
+    "start" : 1517988215067,
+    "stop" : 1517988218734,
+    "duration" : 3667
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,16 +27,16 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "Создание нового ПП"
   }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testMethod",
-    "value" : "verificationDocDate"
+    "value" : "verificationTemplate"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b17b9549a3dba448.json",
+  "source" : "1b94f8ea8deefa6b.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

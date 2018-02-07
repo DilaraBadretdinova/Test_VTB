@@ -4,38 +4,38 @@
     "testRuns" : [ ],
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 7,
       "unknown" : 0,
       "total" : 9
     },
     "time" : {
-      "start" : 1517583153988,
-      "stop" : 1517583206206,
-      "duration" : 52218,
-      "minDuration" : 2538,
-      "maxDuration" : 27847,
-      "sumDuration" : 52183
+      "start" : 1517988121814,
+      "stop" : 1517988228182,
+      "duration" : 106368,
+      "minDuration" : 2185,
+      "maxDuration" : 74475,
+      "sumDuration" : 106329
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 4,
     "items" : [ {
-      "uid" : "e1f27ad23c824406de1083908964af96",
-      "name" : "com.dilara.badretdinova.CreateNewDocPPTest",
+      "uid" : "74543ce020549ee7131d6c9493439f22",
+      "name" : "Создание нового ПП",
       "statistic" : {
         "failed" : 0,
-        "broken" : 0,
+        "broken" : 2,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 4,
         "unknown" : 0,
         "total" : 6
       }
     }, {
-      "uid" : "65b8fe2d042c1972a13bac13b907d603",
-      "name" : "com.dilara.badretdinova.AuthorizationTest",
+      "uid" : "005a15d2bc8e9e856d51fc29e32f852c",
+      "name" : "Вход",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -45,8 +45,8 @@
         "total" : 1
       }
     }, {
-      "uid" : "ead6de51a6ff7044d2ebd13083d11b90",
-      "name" : "com.dilara.badretdinova.ButtonCreateNewPPTest",
+      "uid" : "7ad230f0feddbfc51ad7333537e7d271",
+      "name" : "Кнопка 'Создать ПП'",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -56,8 +56,8 @@
         "total" : 1
       }
     }, {
-      "uid" : "3852482af0f78f1bde940e22a91f6023",
-      "name" : "com.dilara.badretdinova.DeleteMessagesTest",
+      "uid" : "2868a07df010f08a9bea6e56baa4cbeb",
+      "name" : "Удаление сообщения из справочника",
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
@@ -71,9 +71,9 @@
   "history-trend" : [ {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 7,
       "unknown" : 0,
       "total" : 9
     }
@@ -84,8 +84,19 @@
   },
   "executors" : [ ],
   "categories" : {
-    "total" : 0,
-    "items" : [ ]
+    "total" : 1,
+    "items" : [ {
+      "uid" : "bdbf199525818fae7a8651db9eafe741",
+      "name" : "Test defects",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
   },
   "launches" : [ ]
 }

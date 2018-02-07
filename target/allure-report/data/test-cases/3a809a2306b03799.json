@@ -1,12 +1,12 @@
 {
-  "uid" : "2eba243c4a5f6127",
-  "name" : "verificationPriorityTypeOfPayment",
-  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationPriorityTypeOfPayment",
-  "historyId" : "e0f1a9889ed65ad0fac052377b54c964",
+  "uid" : "3a809a2306b03799",
+  "name" : "Проверка поля Код",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationCodeEnter",
+  "historyId" : "91237a3e0f1a4abb6e9af09ccf736b44",
   "time" : {
-    "start" : 1517583196472,
-    "stop" : 1517583199569,
-    "duration" : 3097
+    "start" : 1517988221698,
+    "stop" : 1517988224561,
+    "duration" : 2863
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,16 +27,16 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "Создание нового ПП"
   }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testMethod",
-    "value" : "verificationPriorityTypeOfPayment"
+    "value" : "verificationCodeEnter"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2eba243c4a5f6127.json",
+  "source" : "3a809a2306b03799.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

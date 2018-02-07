@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.dilara.badretdinova.ButtonCreateNewPPTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.61 s - in com.dilara.badretdinova.ButtonCreateNewPPTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.142 s - in com.dilara.badretdinova.ButtonCreateNewPPTest

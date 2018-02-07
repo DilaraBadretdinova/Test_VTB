@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517988121797" stop="1517988228324" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>com.dilara.badretdinova.AuthorizationTest</name>
+    <title>Вход</title>
+    <test-cases>
+        <test-case start="1517988121814" stop="1517988196289" status="passed">
+            <name>authorization</name>
+            <title>Страница авторизации</title>
+            <description type="text">Ввод логина и пароля на странице авторизации</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-L22C96I"/>
+                <label name="thread" value="19528@DESKTOP-L22C96I.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

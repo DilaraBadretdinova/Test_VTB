@@ -1,12 +1,12 @@
 {
-  "uid" : "6013b55ecf819f5c",
-  "name" : "verificationDocNumber",
-  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationDocNumber",
-  "historyId" : "a0b28d1cae0f62497fb03019d8794c3b",
+  "uid" : "a83968f4d365a15f",
+  "name" : "Проверка поля Дата документа",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationDocDate",
+  "historyId" : "9307ed68aada2273c6d7ff8a5e37751b",
   "time" : {
-    "start" : 1517583187491,
-    "stop" : 1517583190788,
-    "duration" : 3297
+    "start" : 1517988212405,
+    "stop" : 1517988215066,
+    "duration" : 2661
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,16 +27,16 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "Создание нового ПП"
   }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testMethod",
-    "value" : "verificationDocNumber"
+    "value" : "verificationDocDate"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6013b55ecf819f5c.json",
+  "source" : "a83968f4d365a15f.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

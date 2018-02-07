@@ -2,128 +2,128 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "com.dilara.badretdinova.AuthorizationTest",
+    "name" : "Вход",
     "children" : [ {
-      "name" : "authorization",
-      "uid" : "42e500eea351091c",
-      "parentUid" : "65b8fe2d042c1972a13bac13b907d603",
+      "name" : "Страница авторизации",
+      "uid" : "e660be4dc061c0df",
+      "parentUid" : "005a15d2bc8e9e856d51fc29e32f852c",
       "status" : "passed",
       "time" : {
-        "start" : 1517583153988,
-        "stop" : 1517583181835,
-        "duration" : 27847
+        "start" : 1517988121814,
+        "stop" : 1517988196289,
+        "duration" : 74475
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "65b8fe2d042c1972a13bac13b907d603"
+    "uid" : "005a15d2bc8e9e856d51fc29e32f852c"
   }, {
-    "name" : "com.dilara.badretdinova.ButtonCreateNewPPTest",
+    "name" : "Кнопка 'Создать ПП'",
     "children" : [ {
-      "name" : "clickButtonCreateNewPP",
-      "uid" : "bfbcbed493a3dc3",
-      "parentUid" : "ead6de51a6ff7044d2ebd13083d11b90",
+      "name" : "Кнопка 'Создать ПП'",
+      "uid" : "4155d3800840d061",
+      "parentUid" : "7ad230f0feddbfc51ad7333537e7d271",
       "status" : "passed",
       "time" : {
-        "start" : 1517583181861,
-        "stop" : 1517583184520,
-        "duration" : 2659
+        "start" : 1517988196320,
+        "stop" : 1517988198505,
+        "duration" : 2185
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "ead6de51a6ff7044d2ebd13083d11b90"
+    "uid" : "7ad230f0feddbfc51ad7333537e7d271"
   }, {
-    "name" : "com.dilara.badretdinova.CreateNewDocPPTest",
+    "name" : "Создание нового ПП",
     "children" : [ {
-      "name" : "verificationTypePayment",
-      "uid" : "aa2d1a7197975d7f",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
+      "name" : "Проверка списка Вид платежа",
+      "uid" : "978f2ef311b0c169",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
+      "status" : "broken",
       "time" : {
-        "start" : 1517583184522,
-        "stop" : 1517583187490,
-        "duration" : 2968
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "verificationDocNumber",
-      "uid" : "6013b55ecf819f5c",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1517583187491,
-        "stop" : 1517583190788,
-        "duration" : 3297
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "verificationDocDate",
-      "uid" : "b17b9549a3dba448",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1517583190789,
-        "stop" : 1517583193327,
-        "duration" : 2538
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "verificationTemplate",
-      "uid" : "eb7a00298d458e36",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1517583193328,
-        "stop" : 1517583196471,
-        "duration" : 3143
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "verificationPriorityTypeOfPayment",
-      "uid" : "2eba243c4a5f6127",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1517583196472,
-        "stop" : 1517583199569,
-        "duration" : 3097
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "verificationCodeEnter",
-      "uid" : "30aef948138efc3e",
-      "parentUid" : "e1f27ad23c824406de1083908964af96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1517583199570,
-        "stop" : 1517583202485,
+        "start" : 1517988198507,
+        "stop" : 1517988201422,
         "duration" : 2915
       },
       "flaky" : false,
       "parameters" : [ ]
-    } ],
-    "uid" : "e1f27ad23c824406de1083908964af96"
-  }, {
-    "name" : "com.dilara.badretdinova.DeleteMessagesTest",
-    "children" : [ {
-      "name" : "deleteMessage",
-      "uid" : "b359bbfadc55dbc9",
-      "parentUid" : "3852482af0f78f1bde940e22a91f6023",
+    }, {
+      "name" : "Проверка поля Номер документа",
+      "uid" : "a0f78e9ad77813a8",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
+      "status" : "broken",
+      "time" : {
+        "start" : 1517988201423,
+        "stop" : 1517988212405,
+        "duration" : 10982
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка поля Дата документа",
+      "uid" : "a83968f4d365a15f",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
       "status" : "passed",
       "time" : {
-        "start" : 1517583202487,
-        "stop" : 1517583206206,
-        "duration" : 3719
+        "start" : 1517988212405,
+        "stop" : 1517988215066,
+        "duration" : 2661
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка списка Шаблоны",
+      "uid" : "1b94f8ea8deefa6b",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1517988215067,
+        "stop" : 1517988218734,
+        "duration" : 3667
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка Очередность платежа",
+      "uid" : "325010642b6b61b3",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1517988218735,
+        "stop" : 1517988221697,
+        "duration" : 2962
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Проверка поля Код",
+      "uid" : "3a809a2306b03799",
+      "parentUid" : "74543ce020549ee7131d6c9493439f22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1517988221698,
+        "stop" : 1517988224561,
+        "duration" : 2863
       },
       "flaky" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "3852482af0f78f1bde940e22a91f6023"
+    "uid" : "74543ce020549ee7131d6c9493439f22"
+  }, {
+    "name" : "Удаление сообщения из справочника",
+    "children" : [ {
+      "name" : "Удаление сообщения из справочника",
+      "uid" : "2983d2c3e926d127",
+      "parentUid" : "2868a07df010f08a9bea6e56baa4cbeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1517988224563,
+        "stop" : 1517988228182,
+        "duration" : 3619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2868a07df010f08a9bea6e56baa4cbeb"
   } ]
 }

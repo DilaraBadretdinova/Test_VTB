@@ -9,8 +9,11 @@ import org.junit.Before;
 import org.junit.Test;
 import Pages.Page;
 import org.openqa.selenium.WebDriver;
+import ru.yandex.qatools.allure.annotations.Description;
+import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.allure.annotations.Title;
 
-
+@Title("Кнопка 'Создать ПП'")
 public class ButtonCreateNewPPTest {
     public WebDriver driver;
 
@@ -21,6 +24,8 @@ public class ButtonCreateNewPPTest {
         new LoginPage().clickLoginButton(user);
     }
 
+    @Title("Кнопка 'Создать ПП'")
+    @Description("Проверка кнопки 'Создать ПП'")
     @Test
     public void clickButtonCreateNewPP() {
         new MainPage().clickCreateNewPP();

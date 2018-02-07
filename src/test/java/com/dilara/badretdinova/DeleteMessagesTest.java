@@ -8,10 +8,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import User.UserInfo;
 import Pages.DeleteMessageForBank;
+import ru.yandex.qatools.allure.annotations.Description;
+import ru.yandex.qatools.allure.annotations.Step;
+import ru.yandex.qatools.allure.annotations.Title;
 
 import java.util.logging.Logger;
 
-
+@Title("Удаление сообщения из справочника")
 public class DeleteMessagesTest {
     public WebDriver driver;
     private static Logger log = Logger.getLogger(DeleteMessagesTest.class.getName());
@@ -26,6 +29,8 @@ public class DeleteMessagesTest {
     }
 
     //удаление
+    @Title("Удаление сообщения из справочника")
+    @Description("Создать новое сообщение, затем отменить удаление и удалить")
     @Test
     public void deleteMessage() {
         DeleteMessageForBank deleteMessageForBank = new DeleteMessageForBank();

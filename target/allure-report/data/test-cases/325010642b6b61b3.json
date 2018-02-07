@@ -1,12 +1,12 @@
 {
-  "uid" : "bfbcbed493a3dc3",
-  "name" : "clickButtonCreateNewPP",
-  "fullName" : "com.dilara.badretdinova.ButtonCreateNewPPTest.clickButtonCreateNewPP",
-  "historyId" : "386e7fb708b3d5581583b150f967d948",
+  "uid" : "325010642b6b61b3",
+  "name" : "Проверка Очередность платежа",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationPriorityTypeOfPayment",
+  "historyId" : "57c94f5cd5817cb404c4fb24b5b7d719",
   "time" : {
-    "start" : 1517583181861,
-    "stop" : 1517583184520,
-    "duration" : 2659
+    "start" : 1517988218735,
+    "stop" : 1517988221697,
+    "duration" : 2962
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,19 +27,19 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+    "value" : "Создание нового ПП"
   }, {
     "name" : "testClass",
-    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testMethod",
-    "value" : "clickButtonCreateNewPP"
+    "value" : "verificationPriorityTypeOfPayment"
   }, {
     "name" : "package",
-    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bfbcbed493a3dc3.json",
+  "source" : "325010642b6b61b3.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

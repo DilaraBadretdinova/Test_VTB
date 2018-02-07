@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1517583181861" stop="1517583206356" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1517988196320" stop="1517988228298" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>com.dilara.badretdinova.ButtonCreateNewPPTest</name>
+    <title>Кнопка 'Создать ПП'</title>
     <test-cases>
-        <test-case start="1517583181861" stop="1517583184520" status="passed">
+        <test-case start="1517988196320" stop="1517988198505" status="passed">
             <name>clickButtonCreateNewPP</name>
+            <title>Кнопка 'Создать ПП'</title>
+            <description type="text">Проверка кнопки 'Создать ПП'</description>
             <steps/>
             <attachments/>
             <labels>
                 <label name="host" value="DESKTOP-L22C96I"/>
-                <label name="thread" value="47712@DESKTOP-L22C96I.main(1)"/>
+                <label name="thread" value="19528@DESKTOP-L22C96I.main(1)"/>
             </labels>
         </test-case>
     </test-cases>

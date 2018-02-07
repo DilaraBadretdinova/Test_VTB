@@ -1,15 +1,15 @@
 {
-  "uid" : "eb7a00298d458e36",
-  "name" : "verificationTemplate",
-  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationTemplate",
-  "historyId" : "5a483be201e83597576cb04052487ad2",
+  "uid" : "e660be4dc061c0df",
+  "name" : "Страница авторизации",
+  "fullName" : "com.dilara.badretdinova.AuthorizationTest.authorization",
+  "historyId" : "bb22f2aefa51e6ae97782857d14f4534",
   "time" : {
-    "start" : 1517583193328,
-    "stop" : 1517583196471,
-    "duration" : 3143
+    "start" : 1517988121814,
+    "stop" : 1517988196289,
+    "duration" : 74475
   },
-  "description" : "",
-  "descriptionHtml" : "",
+  "description" : "Ввод логина и пароля на странице авторизации",
+  "descriptionHtml" : "<p>Ввод логина и пароля на странице авторизации</p>\n",
   "status" : "passed",
   "statusDetails" : {
     "flaky" : false
@@ -27,19 +27,19 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "Вход"
   }, {
     "name" : "testClass",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "com.dilara.badretdinova.AuthorizationTest"
   }, {
     "name" : "testMethod",
-    "value" : "verificationTemplate"
+    "value" : "authorization"
   }, {
     "name" : "package",
-    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+    "value" : "com.dilara.badretdinova.AuthorizationTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eb7a00298d458e36.json",
+  "source" : "e660be4dc061c0df.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

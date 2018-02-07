@@ -1,15 +1,15 @@
 {
-  "uid" : "42e500eea351091c",
-  "name" : "authorization",
-  "fullName" : "com.dilara.badretdinova.AuthorizationTest.authorization",
-  "historyId" : "783518fedb08d9b9721fb79811763dd5",
+  "uid" : "4155d3800840d061",
+  "name" : "Кнопка 'Создать ПП'",
+  "fullName" : "com.dilara.badretdinova.ButtonCreateNewPPTest.clickButtonCreateNewPP",
+  "historyId" : "1c046bfa3b32513ab0332a4a39c44dfd",
   "time" : {
-    "start" : 1517583153988,
-    "stop" : 1517583181835,
-    "duration" : 27847
+    "start" : 1517988196320,
+    "stop" : 1517988198505,
+    "duration" : 2185
   },
-  "description" : "",
-  "descriptionHtml" : "",
+  "description" : "Проверка кнопки 'Создать ПП'",
+  "descriptionHtml" : "<p>Проверка кнопки 'Создать ПП'</p>\n",
   "status" : "passed",
   "statusDetails" : {
     "flaky" : false
@@ -27,19 +27,19 @@
     "value" : "JAVA"
   }, {
     "name" : "thread",
-    "value" : "47712@DESKTOP-L22C96I.main(1)"
+    "value" : "19528@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "suite",
-    "value" : "com.dilara.badretdinova.AuthorizationTest"
+    "value" : "Кнопка 'Создать ПП'"
   }, {
     "name" : "testClass",
-    "value" : "com.dilara.badretdinova.AuthorizationTest"
+    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
   }, {
     "name" : "testMethod",
-    "value" : "authorization"
+    "value" : "clickButtonCreateNewPP"
   }, {
     "name" : "package",
-    "value" : "com.dilara.badretdinova.AuthorizationTest"
+    "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,7 +53,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "42e500eea351091c.json",
+  "source" : "4155d3800840d061.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
