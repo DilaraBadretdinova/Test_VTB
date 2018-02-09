@@ -3,75 +3,42 @@
     "reportName" : "Allure Report",
     "testRuns" : [ ],
     "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
+      "failed" : 2,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
       "total" : 9
     },
     "time" : {
-      "start" : 1517988121814,
-      "stop" : 1517988228182,
-      "duration" : 106368,
-      "minDuration" : 2185,
-      "maxDuration" : 74475,
-      "sumDuration" : 106329
+      "start" : 1518181353834,
+      "stop" : 1518181381291,
+      "duration" : 27457,
+      "minDuration" : 291,
+      "maxDuration" : 2010,
+      "sumDuration" : 11726
     }
   },
   "environment" : [ ],
   "suites" : {
-    "total" : 4,
+    "total" : 1,
     "items" : [ {
-      "uid" : "74543ce020549ee7131d6c9493439f22",
-      "name" : "Создание нового ПП",
+      "uid" : "8399274b4bb69ec8699907dd6ef7de4e",
+      "name" : "Default Suite",
       "statistic" : {
-        "failed" : 0,
-        "broken" : 2,
-        "skipped" : 0,
-        "passed" : 4,
-        "unknown" : 0,
-        "total" : 6
-      }
-    }, {
-      "uid" : "005a15d2bc8e9e856d51fc29e32f852c",
-      "name" : "Вход",
-      "statistic" : {
-        "failed" : 0,
+        "failed" : 2,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 1
-      }
-    }, {
-      "uid" : "7ad230f0feddbfc51ad7333537e7d271",
-      "name" : "Кнопка 'Создать ПП'",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
-      }
-    }, {
-      "uid" : "2868a07df010f08a9bea6e56baa4cbeb",
-      "name" : "Удаление сообщения из справочника",
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 1,
-        "unknown" : 0,
-        "total" : 1
+        "total" : 9
       }
     } ]
   },
   "history-trend" : [ {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
+      "failed" : 2,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
@@ -86,11 +53,11 @@
   "categories" : {
     "total" : 1,
     "items" : [ {
-      "uid" : "bdbf199525818fae7a8651db9eafe741",
-      "name" : "Test defects",
+      "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
+      "name" : "Product defects",
       "statistic" : {
-        "failed" : 0,
-        "broken" : 2,
+        "failed" : 2,
+        "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,

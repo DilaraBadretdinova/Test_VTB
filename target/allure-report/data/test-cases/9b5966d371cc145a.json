@@ -1,12 +1,12 @@
 {
-  "uid" : "1b94f8ea8deefa6b",
+  "uid" : "9b5966d371cc145a",
   "name" : "Проверка списка Шаблоны",
   "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationTemplate",
   "historyId" : "95ae98aafee8e3b7f46ec51c591143a2",
   "time" : {
-    "start" : 1517988215067,
-    "stop" : 1517988218734,
-    "duration" : 3667
+    "start" : 1518181373171,
+    "stop" : 1518181375069,
+    "duration" : 1898
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,7 +18,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
-    "value" : "JUnit"
+    "value" : "TestNG"
   }, {
     "name" : "host",
     "value" : "DESKTOP-L22C96I"
@@ -26,17 +26,29 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "thread",
-    "value" : "19528@DESKTOP-L22C96I.main(1)"
-  }, {
-    "name" : "suite",
-    "value" : "Создание нового ПП"
-  }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
+    "name" : "testGroup",
+    "value" : "Test_VTB"
+  }, {
     "name" : "testMethod",
     "value" : "verificationTemplate"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "thread",
+    "value" : "38280@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test_VTB"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -53,7 +65,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1b94f8ea8deefa6b.json",
+  "source" : "9b5966d371cc145a.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

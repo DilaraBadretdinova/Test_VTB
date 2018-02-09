@@ -3,109 +3,109 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Страница авторизации",
-    "uid" : "e660be4dc061c0df",
+    "uid" : "d30059460c87e928",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1517988121814,
-      "stop" : 1517988196289,
-      "duration" : 74475
+      "start" : 1518181353834,
+      "stop" : 1518181355844,
+      "duration" : 2010
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Кнопка 'Создать ПП'",
-    "uid" : "4155d3800840d061",
+    "uid" : "e50db7d2c773d97c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1517988196320,
-      "stop" : 1517988198505,
-      "duration" : 2185
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка списка Вид платежа",
-    "uid" : "978f2ef311b0c169",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1517988198507,
-      "stop" : 1517988201422,
-      "duration" : 2915
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка поля Номер документа",
-    "uid" : "a0f78e9ad77813a8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1517988201423,
-      "stop" : 1517988212405,
-      "duration" : 10982
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка поля Дата документа",
-    "uid" : "a83968f4d365a15f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1517988212405,
-      "stop" : 1517988215066,
-      "duration" : 2661
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка списка Шаблоны",
-    "uid" : "1b94f8ea8deefa6b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1517988215067,
-      "stop" : 1517988218734,
-      "duration" : 3667
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Проверка Очередность платежа",
-    "uid" : "325010642b6b61b3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1517988218735,
-      "stop" : 1517988221697,
-      "duration" : 2962
+      "start" : 1518181357802,
+      "stop" : 1518181358093,
+      "duration" : 291
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Проверка поля Код",
-    "uid" : "3a809a2306b03799",
+    "uid" : "a1c7255d3f5b973e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1517988221698,
-      "stop" : 1517988224561,
-      "duration" : 2863
+      "start" : 1518181360152,
+      "stop" : 1518181361436,
+      "duration" : 1284
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка поля Дата документа",
+    "uid" : "e8fac19cb01fff8c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1518181363732,
+      "stop" : 1518181364723,
+      "duration" : 991
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка поля Номер документа",
+    "uid" : "a10cfa6a63733117",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1518181366528,
+      "stop" : 1518181367705,
+      "duration" : 1177
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка Очередность платежа",
+    "uid" : "83d023214dc5e88d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1518181369555,
+      "stop" : 1518181370907,
+      "duration" : 1352
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка списка Шаблоны",
+    "uid" : "9b5966d371cc145a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1518181373171,
+      "stop" : 1518181375069,
+      "duration" : 1898
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка списка Вид платежа",
+    "uid" : "582a62729fd0a64c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1518181376802,
+      "stop" : 1518181377640,
+      "duration" : 838
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "Удаление сообщения из справочника",
-    "uid" : "2983d2c3e926d127",
+    "uid" : "771f50da4faefeff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1517988224563,
-      "stop" : 1517988228182,
-      "duration" : 3619
+      "start" : 1518181379406,
+      "stop" : 1518181381291,
+      "duration" : 1885
     },
     "flaky" : false,
     "parameters" : [ ]

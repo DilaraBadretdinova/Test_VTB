@@ -1,12 +1,12 @@
 {
-  "uid" : "2983d2c3e926d127",
+  "uid" : "771f50da4faefeff",
   "name" : "Удаление сообщения из справочника",
   "fullName" : "com.dilara.badretdinova.DeleteMessagesTest.deleteMessage",
   "historyId" : "6bd2b8c3fc352990c61c8b92c8c0573e",
   "time" : {
-    "start" : 1517988224563,
-    "stop" : 1517988228182,
-    "duration" : 3619
+    "start" : 1518181379406,
+    "stop" : 1518181381291,
+    "duration" : 1885
   },
   "description" : "Создать новое сообщение, затем отменить удаление и удалить",
   "descriptionHtml" : "<p>Создать новое сообщение, затем отменить удаление и удалить</p>\n",
@@ -18,7 +18,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
-    "value" : "JUnit"
+    "value" : "TestNG"
   }, {
     "name" : "host",
     "value" : "DESKTOP-L22C96I"
@@ -26,17 +26,29 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "thread",
-    "value" : "19528@DESKTOP-L22C96I.main(1)"
-  }, {
-    "name" : "suite",
-    "value" : "Удаление сообщения из справочника"
-  }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.DeleteMessagesTest"
   }, {
+    "name" : "testGroup",
+    "value" : "Test_VTB"
+  }, {
     "name" : "testMethod",
     "value" : "deleteMessage"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "thread",
+    "value" : "38280@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test_VTB"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dilara.badretdinova.DeleteMessagesTest"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.DeleteMessagesTest"
@@ -53,7 +65,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2983d2c3e926d127.json",
+  "source" : "771f50da4faefeff.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },

@@ -52,5 +52,8 @@ public class DeleteMessageForBank extends Page {
         deleteListMessageForBank.click();
         yesDeleteButton.click();
     }
+    public static byte[] takeScreenshot(){
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+    }
 
 }

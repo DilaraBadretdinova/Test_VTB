@@ -1,12 +1,12 @@
 {
-  "uid" : "325010642b6b61b3",
-  "name" : "Проверка Очередность платежа",
-  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationPriorityTypeOfPayment",
-  "historyId" : "57c94f5cd5817cb404c4fb24b5b7d719",
+  "uid" : "582a62729fd0a64c",
+  "name" : "Проверка списка Вид платежа",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationTypePayment",
+  "historyId" : "ab73f6fa61202376c774dbc333ea4eab",
   "time" : {
-    "start" : 1517988218735,
-    "stop" : 1517988221697,
-    "duration" : 2962
+    "start" : 1518181376802,
+    "stop" : 1518181377640,
+    "duration" : 838
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,7 +18,7 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "framework",
-    "value" : "JUnit"
+    "value" : "TestNG"
   }, {
     "name" : "host",
     "value" : "DESKTOP-L22C96I"
@@ -26,17 +26,29 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "thread",
-    "value" : "19528@DESKTOP-L22C96I.main(1)"
-  }, {
-    "name" : "suite",
-    "value" : "Создание нового ПП"
-  }, {
     "name" : "testClass",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
+    "name" : "testGroup",
+    "value" : "Test_VTB"
+  }, {
     "name" : "testMethod",
-    "value" : "verificationPriorityTypeOfPayment"
+    "value" : "verificationTypePayment"
+  }, {
+    "name" : "testSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "thread",
+    "value" : "38280@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test_VTB"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "package",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -53,7 +65,7 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "325010642b6b61b3.json",
+  "source" : "582a62729fd0a64c.json",
   "statusDetailsSafe" : {
     "flaky" : false
   },
