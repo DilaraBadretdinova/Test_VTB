@@ -7,34 +7,18 @@
       "name" : "AssertionError: expected [BilalovaLR] but found [BilalovLR]",
       "children" : [ {
         "name" : "Страница авторизации",
-        "uid" : "d30059460c87e928",
+        "uid" : "43f46b7bd19793e8",
         "parentUid" : "7d53867ecbd59bd2e5ea126fb1cd6d84",
         "status" : "failed",
         "time" : {
-          "start" : 1518181353834,
-          "stop" : 1518181355844,
-          "duration" : 2010
+          "start" : 1518426328842,
+          "stop" : 1518426330815,
+          "duration" : 1973
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "7d53867ecbd59bd2e5ea126fb1cd6d84"
-    }, {
-      "name" : "AssertionError: expected [249198] but found [197]",
-      "children" : [ {
-        "name" : "Проверка поля Номер документа",
-        "uid" : "a10cfa6a63733117",
-        "parentUid" : "d2d5bcb5d15a29e7dd3305166c9cd0cc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1518181366528,
-          "stop" : 1518181367705,
-          "duration" : 1177
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d2d5bcb5d15a29e7dd3305166c9cd0cc"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

@@ -1,12 +1,12 @@
 {
-  "uid" : "e50db7d2c773d97c",
+  "uid" : "6eb3cf33ed13d466",
   "name" : "Кнопка 'Создать ПП'",
   "fullName" : "com.dilara.badretdinova.ButtonCreateNewPPTest.clickButtonCreateNewPP",
   "historyId" : "1c046bfa3b32513ab0332a4a39c44dfd",
   "time" : {
-    "start" : 1518181357802,
-    "stop" : 1518181358093,
-    "duration" : 291
+    "start" : 1518426332702,
+    "stop" : 1518426333032,
+    "duration" : 330
   },
   "description" : "Проверка кнопки 'Создать ПП'",
   "descriptionHtml" : "<p>Проверка кнопки 'Создать ПП'</p>\n",
@@ -30,22 +30,22 @@
     "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
   }, {
     "name" : "testGroup",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "testMethod",
     "value" : "clickButtonCreateNewPP"
   }, {
     "name" : "testSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "thread",
-    "value" : "38280@DESKTOP-L22C96I.main(1)"
+    "value" : "30204@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "parentSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "suite",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "subSuite",
     "value" : "com.dilara.badretdinova.ButtonCreateNewPPTest"
@@ -65,12 +65,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e50db7d2c773d97c.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
   "statusMessage" : {
     "present" : false
+  },
+  "source" : "6eb3cf33ed13d466.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
   },
   "parameterValues" : [ ]
 }

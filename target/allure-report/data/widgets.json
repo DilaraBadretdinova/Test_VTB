@@ -3,33 +3,33 @@
     "reportName" : "Allure Report",
     "testRuns" : [ ],
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
       "total" : 9
     },
     "time" : {
-      "start" : 1518181353834,
-      "stop" : 1518181381291,
-      "duration" : 27457,
-      "minDuration" : 291,
-      "maxDuration" : 2010,
-      "sumDuration" : 11726
+      "start" : 1518426328842,
+      "stop" : 1518426355089,
+      "duration" : 26247,
+      "minDuration" : 330,
+      "maxDuration" : 1973,
+      "sumDuration" : 11714
     }
   },
   "environment" : [ ],
   "suites" : {
     "total" : 1,
     "items" : [ {
-      "uid" : "8399274b4bb69ec8699907dd6ef7de4e",
-      "name" : "Default Suite",
+      "uid" : "940a09faf31371a51747026c9d178f0a",
+      "name" : "Surefire suite",
       "statistic" : {
-        "failed" : 2,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
         "total" : 9
       }
@@ -37,10 +37,10 @@
   },
   "history-trend" : [ {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
       "total" : 9
     }
@@ -56,12 +56,12 @@
       "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d",
       "name" : "Product defects",
       "statistic" : {
-        "failed" : 2,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 1
       }
     } ]
   },

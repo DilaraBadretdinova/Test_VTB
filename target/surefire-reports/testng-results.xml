@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47482" started-at="2018-02-12T09:05:07Z" finished-at="2018-02-12T09:05:55Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47482" started-at="2018-02-12T09:05:07Z" finished-at="2018-02-12T09:05:55Z">
+      <class name="com.dilara.badretdinova.CreateNewDocPPTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1941" started-at="2018-02-12T12:05:33Z" finished-at="2018-02-12T12:05:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verificationCodeEnter()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationCodeEnter" duration-ms="1228" started-at="2018-02-12T12:05:34Z" finished-at="2018-02-12T12:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationCodeEnter -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1735" started-at="2018-02-12T12:05:36Z" finished-at="2018-02-12T12:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:36Z" finished-at="2018-02-12T12:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+        <test-method status="PASS" signature="verificationDocDate()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationDocDate" duration-ms="825" started-at="2018-02-12T12:05:37Z" finished-at="2018-02-12T12:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationDocDate -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1816" started-at="2018-02-12T12:05:38Z" finished-at="2018-02-12T12:05:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:38Z" finished-at="2018-02-12T12:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+        <test-method status="PASS" signature="verificationDocNumber()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationDocNumber" duration-ms="1502" started-at="2018-02-12T12:05:40Z" finished-at="2018-02-12T12:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationDocNumber -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:42Z" finished-at="2018-02-12T12:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1778" started-at="2018-02-12T12:05:42Z" finished-at="2018-02-12T12:05:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verificationPriorityTypeOfPayment()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationPriorityTypeOfPayment" duration-ms="1361" started-at="2018-02-12T12:05:43Z" finished-at="2018-02-12T12:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationPriorityTypeOfPayment -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="1" started-at="2018-02-12T12:05:45Z" finished-at="2018-02-12T12:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1780" started-at="2018-02-12T12:05:45Z" finished-at="2018-02-12T12:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verificationTemplate()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationTemplate" duration-ms="1796" started-at="2018-02-12T12:05:47Z" finished-at="2018-02-12T12:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationTemplate -->
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="setUp" is-config="true" duration-ms="1759" started-at="2018-02-12T12:05:48Z" finished-at="2018-02-12T12:05:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:48Z" finished-at="2018-02-12T12:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+        <test-method status="PASS" signature="verificationTypePayment()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="verificationTypePayment" duration-ms="927" started-at="2018-02-12T12:05:50Z" finished-at="2018-02-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationTypePayment -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.CreateNewDocPPTest@6ff415ad]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:51Z" finished-at="2018-02-12T12:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+      </class> <!-- com.dilara.badretdinova.CreateNewDocPPTest -->
+      <class name="com.dilara.badretdinova.ButtonCreateNewPPTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.ButtonCreateNewPPTest@70e13fa]" name="setUp" is-config="true" duration-ms="1872" started-at="2018-02-12T12:05:30Z" finished-at="2018-02-12T12:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickButtonCreateNewPP()[pri:0, instance:com.dilara.badretdinova.ButtonCreateNewPPTest@70e13fa]" name="clickButtonCreateNewPP" duration-ms="332" started-at="2018-02-12T12:05:32Z" finished-at="2018-02-12T12:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButtonCreateNewPP -->
+        <test-method status="PASS" signature="updatePage()[pri:0, instance:com.dilara.badretdinova.ButtonCreateNewPPTest@70e13fa]" name="updatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:33Z" finished-at="2018-02-12T12:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePage -->
+      </class> <!-- com.dilara.badretdinova.ButtonCreateNewPPTest -->
+      <class name="com.dilara.badretdinova.DeleteMessagesTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.DeleteMessagesTest@280d9edc]" name="setUp" is-config="true" duration-ms="1823" started-at="2018-02-12T12:05:51Z" finished-at="2018-02-12T12:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteMessage()[pri:0, instance:com.dilara.badretdinova.DeleteMessagesTest@280d9edc]" name="deleteMessage" duration-ms="1777" started-at="2018-02-12T12:05:53Z" finished-at="2018-02-12T12:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMessage -->
+      </class> <!-- com.dilara.badretdinova.DeleteMessagesTest -->
+      <class name="com.dilara.badretdinova.AuthorizationTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.dilara.badretdinova.AuthorizationTest@10c2064a]" name="setUp" is-config="true" duration-ms="21142" started-at="2018-02-12T12:05:07Z" finished-at="2018-02-12T12:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@106c3e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="authorization()[pri:0, instance:com.dilara.badretdinova.AuthorizationTest@10c2064a]" name="authorization" duration-ms="1511" started-at="2018-02-12T12:05:28Z" finished-at="2018-02-12T12:05:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [BilalovaLR] but found [BilalovLR]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [BilalovaLR] but found [BilalovLR]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.dilara.badretdinova.AuthorizationTest.authorization(AuthorizationTest.java:45)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authorization -->
+        <test-method status="PASS" signature="UpdatePage()[pri:0, instance:com.dilara.badretdinova.AuthorizationTest@10c2064a]" name="UpdatePage" is-config="true" duration-ms="0" started-at="2018-02-12T12:05:30Z" finished-at="2018-02-12T12:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePage -->
+      </class> <!-- com.dilara.badretdinova.AuthorizationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

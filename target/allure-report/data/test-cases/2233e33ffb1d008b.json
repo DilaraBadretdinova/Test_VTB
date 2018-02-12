@@ -1,12 +1,12 @@
 {
-  "uid" : "771f50da4faefeff",
+  "uid" : "2233e33ffb1d008b",
   "name" : "Удаление сообщения из справочника",
   "fullName" : "com.dilara.badretdinova.DeleteMessagesTest.deleteMessage",
   "historyId" : "6bd2b8c3fc352990c61c8b92c8c0573e",
   "time" : {
-    "start" : 1518181379406,
-    "stop" : 1518181381291,
-    "duration" : 1885
+    "start" : 1518426353313,
+    "stop" : 1518426355089,
+    "duration" : 1776
   },
   "description" : "Создать новое сообщение, затем отменить удаление и удалить",
   "descriptionHtml" : "<p>Создать новое сообщение, затем отменить удаление и удалить</p>\n",
@@ -30,22 +30,22 @@
     "value" : "com.dilara.badretdinova.DeleteMessagesTest"
   }, {
     "name" : "testGroup",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "testMethod",
     "value" : "deleteMessage"
   }, {
     "name" : "testSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "thread",
-    "value" : "38280@DESKTOP-L22C96I.main(1)"
+    "value" : "30204@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "parentSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "suite",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "subSuite",
     "value" : "com.dilara.badretdinova.DeleteMessagesTest"
@@ -65,12 +65,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "771f50da4faefeff.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
   "statusMessage" : {
     "present" : false
+  },
+  "source" : "2233e33ffb1d008b.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
   },
   "parameterValues" : [ ]
 }

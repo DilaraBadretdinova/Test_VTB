@@ -1,0 +1,76 @@
+{
+  "uid" : "9ac7cd8c2955460b",
+  "name" : "Проверка поля Номер документа",
+  "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationDocNumber",
+  "historyId" : "89e8d445cce069320c3d9cd735bb7f02",
+  "time" : {
+    "start" : 1518426340584,
+    "stop" : 1518426342086,
+    "duration" : 1502
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L22C96I"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verificationDocNumber"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "thread",
+    "value" : "30204@DESKTOP-L22C96I.main(1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+  }, {
+    "name" : "package",
+    "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "source" : "9ac7cd8c2955460b.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -7,13 +7,13 @@
       "name" : "AuthorizationTest",
       "children" : [ {
         "name" : "authorization",
-        "uid" : "d30059460c87e928",
+        "uid" : "43f46b7bd19793e8",
         "parentUid" : "f6b19a98c216666fc615897e81f27fbc",
         "status" : "failed",
         "time" : {
-          "start" : 1518181353834,
-          "stop" : 1518181355844,
-          "duration" : 2010
+          "start" : 1518426328842,
+          "stop" : 1518426330815,
+          "duration" : 1973
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,13 +23,13 @@
       "name" : "ButtonCreateNewPPTest",
       "children" : [ {
         "name" : "clickButtonCreateNewPP",
-        "uid" : "e50db7d2c773d97c",
+        "uid" : "6eb3cf33ed13d466",
         "parentUid" : "94129654cd42c81c7ea822e79ae68e95",
         "status" : "passed",
         "time" : {
-          "start" : 1518181357802,
-          "stop" : 1518181358093,
-          "duration" : 291
+          "start" : 1518426332702,
+          "stop" : 1518426333032,
+          "duration" : 330
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -39,73 +39,73 @@
       "name" : "CreateNewDocPPTest",
       "children" : [ {
         "name" : "verificationCodeEnter",
-        "uid" : "a1c7255d3f5b973e",
+        "uid" : "5c6d6c3779a0d22c",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
         "status" : "passed",
         "time" : {
-          "start" : 1518181360152,
-          "stop" : 1518181361436,
-          "duration" : 1284
+          "start" : 1518426334978,
+          "stop" : 1518426336205,
+          "duration" : 1227
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verificationDocDate",
-        "uid" : "e8fac19cb01fff8c",
+        "uid" : "41252e9c867f551d",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
         "status" : "passed",
         "time" : {
-          "start" : 1518181363732,
-          "stop" : 1518181364723,
-          "duration" : 991
+          "start" : 1518426337942,
+          "stop" : 1518426338766,
+          "duration" : 824
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verificationDocNumber",
-        "uid" : "a10cfa6a63733117",
+        "uid" : "9ac7cd8c2955460b",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
-        "status" : "failed",
+        "status" : "passed",
         "time" : {
-          "start" : 1518181366528,
-          "stop" : 1518181367705,
-          "duration" : 1177
+          "start" : 1518426340584,
+          "stop" : 1518426342086,
+          "duration" : 1502
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verificationPriorityTypeOfPayment",
-        "uid" : "83d023214dc5e88d",
+        "uid" : "74cfada95e373f08",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
         "status" : "passed",
         "time" : {
-          "start" : 1518181369555,
-          "stop" : 1518181370907,
-          "duration" : 1352
+          "start" : 1518426343864,
+          "stop" : 1518426345225,
+          "duration" : 1361
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verificationTemplate",
-        "uid" : "9b5966d371cc145a",
+        "uid" : "903549d302c30e05",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
         "status" : "passed",
         "time" : {
-          "start" : 1518181373171,
-          "stop" : 1518181375069,
-          "duration" : 1898
+          "start" : 1518426347007,
+          "stop" : 1518426348802,
+          "duration" : 1795
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verificationTypePayment",
-        "uid" : "582a62729fd0a64c",
+        "uid" : "d43dc0198cde15ce",
         "parentUid" : "4cb25361251feb4d6e224923b9bdf263",
         "status" : "passed",
         "time" : {
-          "start" : 1518181376802,
-          "stop" : 1518181377640,
-          "duration" : 838
+          "start" : 1518426350562,
+          "stop" : 1518426351488,
+          "duration" : 926
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -115,13 +115,13 @@
       "name" : "DeleteMessagesTest",
       "children" : [ {
         "name" : "deleteMessage",
-        "uid" : "771f50da4faefeff",
+        "uid" : "2233e33ffb1d008b",
         "parentUid" : "40e7e9b60059f99473ee34b71ccf17dc",
         "status" : "passed",
         "time" : {
-          "start" : 1518181379406,
-          "stop" : 1518181381291,
-          "duration" : 1885
+          "start" : 1518426353313,
+          "stop" : 1518426355089,
+          "duration" : 1776
         },
         "flaky" : false,
         "parameters" : [ ]

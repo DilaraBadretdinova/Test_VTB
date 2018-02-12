@@ -1,12 +1,12 @@
 {
-  "uid" : "9b5966d371cc145a",
+  "uid" : "903549d302c30e05",
   "name" : "Проверка списка Шаблоны",
   "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationTemplate",
   "historyId" : "95ae98aafee8e3b7f46ec51c591143a2",
   "time" : {
-    "start" : 1518181373171,
-    "stop" : 1518181375069,
-    "duration" : 1898
+    "start" : 1518426347007,
+    "stop" : 1518426348802,
+    "duration" : 1795
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -30,22 +30,22 @@
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testGroup",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "testMethod",
     "value" : "verificationTemplate"
   }, {
     "name" : "testSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "thread",
-    "value" : "38280@DESKTOP-L22C96I.main(1)"
+    "value" : "30204@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "parentSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "suite",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "subSuite",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -65,12 +65,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9b5966d371cc145a.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
   "statusMessage" : {
     "present" : false
+  },
+  "source" : "903549d302c30e05.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
   },
   "parameterValues" : [ ]
 }

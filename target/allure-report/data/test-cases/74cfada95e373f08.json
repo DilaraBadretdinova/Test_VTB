@@ -1,12 +1,12 @@
 {
-  "uid" : "83d023214dc5e88d",
+  "uid" : "74cfada95e373f08",
   "name" : "Проверка Очередность платежа",
   "fullName" : "com.dilara.badretdinova.CreateNewDocPPTest.verificationPriorityTypeOfPayment",
   "historyId" : "57c94f5cd5817cb404c4fb24b5b7d719",
   "time" : {
-    "start" : 1518181369555,
-    "stop" : 1518181370907,
-    "duration" : 1352
+    "start" : 1518426343864,
+    "stop" : 1518426345225,
+    "duration" : 1361
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -30,22 +30,22 @@
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
   }, {
     "name" : "testGroup",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "testMethod",
     "value" : "verificationPriorityTypeOfPayment"
   }, {
     "name" : "testSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "thread",
-    "value" : "38280@DESKTOP-L22C96I.main(1)"
+    "value" : "30204@DESKTOP-L22C96I.main(1)"
   }, {
     "name" : "parentSuite",
-    "value" : "Default Suite"
+    "value" : "Surefire suite"
   }, {
     "name" : "suite",
-    "value" : "Test_VTB"
+    "value" : "Surefire test"
   }, {
     "name" : "subSuite",
     "value" : "com.dilara.badretdinova.CreateNewDocPPTest"
@@ -65,12 +65,12 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "83d023214dc5e88d.json",
-  "statusDetailsSafe" : {
-    "flaky" : false
-  },
   "statusMessage" : {
     "present" : false
+  },
+  "source" : "74cfada95e373f08.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
   },
   "parameterValues" : [ ]
 }

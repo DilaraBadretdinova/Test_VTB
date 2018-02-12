@@ -3,8 +3,6 @@ package com.dilara.badretdinova;
 import Pages.LoginPage;
 
 import User.UserInfo;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.Assert;
@@ -23,9 +21,8 @@ import ru.yandex.qatools.allure.annotations.Title;
 
 import java.io.IOException;
 import java.util.logging.Logger;
-@Listeners(MyTestListener.class)
-
 @Title("Вход")
+@Listeners(MyTestListener.class)
 
 public class AuthorizationTest {
     public WebDriver driver;
